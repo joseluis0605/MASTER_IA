@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>6918d90850dc41d4bcc92be1068558d8</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="cfe355fc5bb1c687" class="cell markdown">
+<p><font size="4"></p>
+<h2 id="twitter-us-airline-sentiment">Twitter US Airline Sentiment</h2>
+<p>Un trabajo de análisis de sentimientos sobre los problemas de cada
+aerolínea importante de EE. UU. Se recopilaron datos de Twitter en
+febrero de 2015 y se pidió a los colaboradores que primero clasificaran
+los tweets como positivos, negativos o neutros, y luego categorizaran
+las razones negativas (como "vuelo retrasado" o "servicio grosero").
+</font></p>
+</div>
+<div id="initial_id" class="cell code" data-execution_count="377"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.068937Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.062166Z&quot;}"
+data-collapsed="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk <span class="im">import</span> TweetTokenizer</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div id="2ad4807730a3ed21" class="cell code" data-execution_count="378"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.128594Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.077964Z&quot;}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># extraemos dataset del csv</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> pd.read_csv(<span class="st">&#39;dataset/Tweets.csv&#39;</span>, sep<span class="op">=</span><span class="st">&quot;,&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># mostramos los 5 primeros registros</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>dataset.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="378">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tweet_id</th>
+      <th>airline_sentiment</th>
+      <th>airline_sentiment_confidence</th>
+      <th>negativereason</th>
+      <th>negativereason_confidence</th>
+      <th>airline</th>
+      <th>airline_sentiment_gold</th>
+      <th>name</th>
+      <th>negativereason_gold</th>
+      <th>retweet_count</th>
+      <th>text</th>
+      <th>tweet_coord</th>
+      <th>tweet_created</th>
+      <th>tweet_location</th>
+      <th>user_timezone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>570306133677760513</td>
+      <td>neutral</td>
+      <td>1.0000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>cairdin</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica What @dhepburn said.</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:35:52 -0800</td>
+      <td>NaN</td>
+      <td>Eastern Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>570301130888122368</td>
+      <td>positive</td>
+      <td>0.3486</td>
+      <td>NaN</td>
+      <td>0.0000</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica plus you've added commercials t...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:59 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>570301083672813571</td>
+      <td>neutral</td>
+      <td>0.6837</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>yvonnalynn</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica I didn't today... Must mean I n...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:48 -0800</td>
+      <td>Lets Play</td>
+      <td>Central Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>570301031407624196</td>
+      <td>negative</td>
+      <td>1.0000</td>
+      <td>Bad Flight</td>
+      <td>0.7033</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica it's really aggressive to blast...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:36 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>570300817074462722</td>
+      <td>negative</td>
+      <td>1.0000</td>
+      <td>Can't Tell</td>
+      <td>1.0000</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica and it's a really big bad thing...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:14:45 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="8df499244ff26ee6" class="cell code" data-execution_count="379"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.168509Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.161668Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dataset.shape)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dataset.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(14640, 15)
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 14640 entries, 0 to 14639
+Data columns (total 15 columns):
+ #   Column                        Non-Null Count  Dtype  
+---  ------                        --------------  -----  
+ 0   tweet_id                      14640 non-null  int64  
+ 1   airline_sentiment             14640 non-null  object 
+ 2   airline_sentiment_confidence  14640 non-null  float64
+ 3   negativereason                9178 non-null   object 
+ 4   negativereason_confidence     10522 non-null  float64
+ 5   airline                       14640 non-null  object 
+ 6   airline_sentiment_gold        40 non-null     object 
+ 7   name                          14640 non-null  object 
+ 8   negativereason_gold           32 non-null     object 
+ 9   retweet_count                 14640 non-null  int64  
+ 10  text                          14640 non-null  object 
+ 11  tweet_coord                   1019 non-null   object 
+ 12  tweet_created                 14640 non-null  object 
+ 13  tweet_location                9907 non-null   object 
+ 14  user_timezone                 9820 non-null   object 
+dtypes: float64(2), int64(2), object(11)
+memory usage: 1.7+ MB
+</code></pre>
+</div>
+</div>
+<div id="b285c46b6485a6f8" class="cell markdown">
+<p><font size="4"> Para este dataset se ha decidido eliminar todas las
+características a excepción de la columna de texto, ya que consideramos
+que no están relacionadas con lo que es el tweet y el sentimiento de
+respuesta.</p>
+<h3 id="paso-1-realizamos-un-preprocesado">Paso 1: Realizamos un
+preprocesado</h3>
+<p>Primeramente vamos a realizar una limpieza del dataset, para ello
+realizaremos las siguientes acciones:</p>
+<ul>
+<li>eliminacion de caracteres innecesarios</li>
+<li>eliminacion de stop words</li>
+<li>normalización del texto</li>
+<li>tokenizarlo (usaremos doc2vec para codificar el texto)</li>
+</ul>
+<p></font></p>
+</div>
+<div id="da53efdaf36df4ad" class="cell code" data-execution_count="380"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.190974Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.185834Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># nos quedamos solo con las dos características: text y airline_sentiment</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> dataset[[<span class="st">&quot;text&quot;</span>, <span class="st">&quot;airline_sentiment&quot;</span>]]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dataset<span class="op">=</span> dataset.dropna()</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>dataset.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="380">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>text</th>
+      <th>airline_sentiment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>@VirginAmerica What @dhepburn said.</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>@VirginAmerica plus you've added commercials t...</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>@VirginAmerica I didn't today... Must mean I n...</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>@VirginAmerica it's really aggressive to blast...</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>@VirginAmerica and it's a really big bad thing...</td>
+      <td>negative</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="bf9c18ea5bd95497" class="cell code" data-execution_count="381"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.226592Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.223608Z&quot;}">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># vemos como de balanceado está el dataset</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>proporcion_salida <span class="op">=</span> dataset[<span class="st">&quot;airline_sentiment&quot;</span>].value_counts()<span class="op">/</span><span class="bu">len</span>(dataset)<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(proporcion_salida)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>airline_sentiment
+negative    62.691257
+neutral     21.168033
+positive    16.140710
+Name: count, dtype: float64
+</code></pre>
+</div>
+</div>
+<div id="5006b344d7e56002" class="cell code" data-execution_count="382"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.256831Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.254527Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos el objeto que va a dividir el texto en tokens</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - strip_handles: eliminar las menciones</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># - preserve_case: convierte todo a minuscula</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>token_tweet <span class="op">=</span> TweetTokenizer(strip_handles<span class="op">=</span><span class="va">True</span>, preserve_case<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<div id="eee66d4943ad93c0" class="cell code" data-execution_count="383"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.282077Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.278603Z&quot;}">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># descargamos stop_words</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.corpus <span class="im">import</span> stopwords</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">&#39;stopwords&#39;</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>mis_stopwords <span class="op">=</span> <span class="bu">set</span>(stopwords.words(<span class="st">&quot;english&quot;</span>))</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(mis_stopwords)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;their&#39;, &#39;just&#39;, &quot;it&#39;ll&quot;, &#39;all&#39;, &#39;is&#39;, &quot;wasn&#39;t&quot;, &#39;about&#39;, &#39;herself&#39;, &#39;who&#39;, &#39;ours&#39;, &#39;out&#39;, &#39;ain&#39;, &#39;don&#39;, &#39;few&#39;, &quot;that&#39;ll&quot;, &#39;now&#39;, &#39;they&#39;, &quot;they&#39;re&quot;, &quot;we&#39;d&quot;, &quot;hasn&#39;t&quot;, &#39;had&#39;, &quot;it&#39;s&quot;, &#39;d&#39;, &quot;needn&#39;t&quot;, &#39;t&#39;, &quot;we&#39;ve&quot;, &#39;yours&#39;, &#39;where&#39;, &#39;theirs&#39;, &quot;he&#39;ll&quot;, &#39;into&#39;, &#39;should&#39;, &quot;i&#39;m&quot;, &#39;because&#39;, &#39;to&#39;, &#39;didn&#39;, &#39;through&#39;, &#39;doing&#39;, &quot;she&#39;s&quot;, &#39;whom&#39;, &#39;yourself&#39;, &#39;be&#39;, &quot;hadn&#39;t&quot;, &#39;above&#39;, &#39;has&#39;, &#39;itself&#39;, &#39;a&#39;, &#39;what&#39;, &#39;have&#39;, &#39;only&#39;, &#39;after&#39;, &quot;won&#39;t&quot;, &#39;most&#39;, &#39;how&#39;, &#39;shan&#39;, &#39;ve&#39;, &#39;from&#39;, &#39;there&#39;, &#39;you&#39;, &#39;with&#39;, &quot;he&#39;s&quot;, &#39;hers&#39;, &#39;aren&#39;, &#39;further&#39;, &#39;needn&#39;, &quot;weren&#39;t&quot;, &quot;she&#39;ll&quot;, &#39;himself&#39;, &#39;when&#39;, &#39;his&#39;, &#39;own&#39;, &quot;you&#39;ll&quot;, &quot;she&#39;d&quot;, &#39;this&#39;, &quot;they&#39;ve&quot;, &#39;at&#39;, &#39;it&#39;, &#39;no&#39;, &quot;shouldn&#39;t&quot;, &#39;our&#39;, &#39;having&#39;, &#39;off&#39;, &quot;i&#39;d&quot;, &#39;he&#39;, &#39;your&#39;, &#39;below&#39;, &#39;that&#39;, &#39;been&#39;, &#39;but&#39;, &#39;why&#39;, &#39;am&#39;, &quot;doesn&#39;t&quot;, &#39;m&#39;, &#39;ll&#39;, &#39;such&#39;, &#39;we&#39;, &#39;o&#39;, &#39;does&#39;, &quot;isn&#39;t&quot;, &#39;couldn&#39;, &#39;again&#39;, &#39;during&#39;, &#39;re&#39;, &#39;down&#39;, &#39;in&#39;, &#39;once&#39;, &#39;being&#39;, &#39;not&#39;, &#39;themselves&#39;, &#39;under&#39;, &#39;by&#39;, &#39;each&#39;, &#39;its&#39;, &#39;up&#39;, &#39;some&#39;, &#39;then&#39;, &quot;mustn&#39;t&quot;, &quot;you&#39;d&quot;, &#39;or&#39;, &quot;haven&#39;t&quot;, &#39;myself&#39;, &#39;against&#39;, &#39;before&#39;, &#39;do&#39;, &#39;so&#39;, &#39;did&#39;, &#39;any&#39;, &quot;shan&#39;t&quot;, &#39;those&#39;, &#39;same&#39;, &#39;very&#39;, &quot;should&#39;ve&quot;, &#39;for&#39;, &#39;my&#39;, &#39;the&#39;, &quot;they&#39;d&quot;, &#39;which&#39;, &#39;will&#39;, &quot;you&#39;ve&quot;, &quot;aren&#39;t&quot;, &#39;hadn&#39;, &#39;her&#39;, &#39;can&#39;, &#39;him&#39;, &#39;if&#39;, &#39;i&#39;, &#39;while&#39;, &#39;y&#39;, &#39;ma&#39;, &#39;until&#39;, &quot;didn&#39;t&quot;, &#39;hasn&#39;, &#39;isn&#39;, &#39;haven&#39;, &#39;shouldn&#39;, &#39;wasn&#39;, &#39;of&#39;, &#39;more&#39;, &#39;mightn&#39;, &#39;me&#39;, &#39;between&#39;, &quot;i&#39;ve&quot;, &#39;were&#39;, &#39;too&#39;, &#39;ourselves&#39;, &#39;yourselves&#39;, &#39;and&#39;, &quot;we&#39;re&quot;, &#39;an&#39;, &#39;doesn&#39;, &#39;as&#39;, &#39;over&#39;, &#39;both&#39;, &#39;other&#39;, &#39;was&#39;, &quot;don&#39;t&quot;, &#39;are&#39;, &quot;wouldn&#39;t&quot;, &#39;wouldn&#39;, &#39;nor&#39;, &quot;mightn&#39;t&quot;, &#39;than&#39;, &#39;she&#39;, &quot;i&#39;ll&quot;, &#39;them&#39;, &quot;you&#39;re&quot;, &#39;won&#39;, &#39;here&#39;, &quot;we&#39;ll&quot;, &#39;mustn&#39;, &#39;these&#39;, &quot;they&#39;ll&quot;, &quot;couldn&#39;t&quot;, &quot;it&#39;d&quot;, &quot;he&#39;d&quot;, &#39;weren&#39;, &#39;s&#39;, &#39;on&#39;}
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/joseluismezquitajimenez/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+</code></pre>
+</div>
+</div>
+<div id="76f4ee6b2c63a084" class="cell code" data-execution_count="384"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.303932Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.301599Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># preprocesamos el texto</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(string.punctuation)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocesamiento(textos):</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    textos_procesados<span class="op">=</span> []</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># recorremos cada uno de los tweets</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> tweet <span class="kw">in</span> textos:</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># aplicamos el token</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>        tweet_tokenizado <span class="op">=</span> token_tweet.tokenize(tweet)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># almacenamos tokens filtrados (eliminando las step-words)</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>        token_filtrado <span class="op">=</span> []</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> token <span class="kw">in</span> tweet_tokenizado:</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>            <span class="co"># vamos a eliminar:</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>            <span class="co"># - token que esta en la lista de step-words </span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>            <span class="co"># - toke es un número </span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>            <span class="co"># - signos de puntuacion (incluimos los puntos suspensivos)</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> token <span class="kw">not</span> <span class="kw">in</span> mis_stopwords <span class="kw">and</span> <span class="kw">not</span> token.isdigit() <span class="kw">and</span> token <span class="kw">not</span> <span class="kw">in</span> string.punctuation <span class="kw">and</span> token <span class="op">!=</span> <span class="st">&quot;...&quot;</span>:</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>                token_filtrado.append(token)</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>        textos_procesados.append(token_filtrado)</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> textos_procesados</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>!&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+</code></pre>
+</div>
+</div>
+<div id="8bbf93bd488c963e" class="cell code" data-execution_count="385"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.975833Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.323402Z&quot;}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># aplicamos preprocesamiento al texto</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>dato_x <span class="op">=</span> preprocesamiento(dataset[<span class="st">&quot;text&quot;</span>])</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># aplicamos procesamiento a la columna de sentimientos</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>encoding <span class="op">=</span> LabelEncoder()</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>dato_y <span class="op">=</span> encoding.fit_transform(dataset[<span class="st">&quot;airline_sentiment&quot;</span>])</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dato_x[<span class="dv">2</span>])</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dato_y)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;today&#39;, &#39;must&#39;, &#39;mean&#39;, &#39;need&#39;, &#39;take&#39;, &#39;another&#39;, &#39;trip&#39;]
+[1 2 1 ... 1 0 1]
+</code></pre>
+</div>
+</div>
+<div id="1068f25367c6b07" class="cell markdown">
+<p><font size="4"></p>
+<h3 id="paso-2-realizamos-el-modelado">Paso 2: Realizamos el
+modelado</h3>
+<p>Una vez ya tenemos realizado el preprocesamiento, en donde, hemos
+eliminado columnas primero. Después hemos tokenizado el texto,
+incluyendo la depuración y la limpieza y, por último, hemos procedido a
+procesar mediante LabelEncoding, la columna resultado
+(sentimientos).</p>
+<p>Ahora, en esta fase, procederemos a dividir el dataset en conjunto
+entrenamiento y test.</p>
+<p>Después, vamos a proceder a codificar primeramente el texto
+tokenizado para pasarlo de formato de texto a un formato numérico. Para
+ello, utilizaremos la técnica "doc2vec", la cual nos va a permitir
+transformar cada uno de los textos en vectores de una dimensión fija,
+para que, acto seguido, apliquemos un algoritmo de machine learning.
+</font></p>
+</div>
+<div id="88444e5e0c5523a1" class="cell code" data-execution_count="386"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:47.993146Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:47.983963Z&quot;}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dividimos en conjunto entrenamiento y en conjunto de test.</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(dato_x, dato_y, test_size<span class="op">=</span><span class="fl">0.8</span>, random_state<span class="op">=</span><span class="dv">42</span>, stratify<span class="op">=</span>dato_y)</span></code></pre></div>
+</div>
+<div id="bf7efbe1d64682c7" class="cell markdown">
+<p><font size="4"></p>
+<p>Doc2vec se trata de un modelo que codifica texto en vectores. Como se
+trata de un modelo, debemos ajustarlo al formato que entiende y también,
+deberemos entrenarlo.</p>
+</div>
+<div id="63d02ed42c0fdaf1" class="cell code" data-execution_count="387"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:48.004949Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:48.000065Z&quot;}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># preparamos los datos en formato doc2vec</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># vamos a crear un objeto de tipo TaggedDocument, formado por cada tweet y su etiqueta</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> gensim.models.doc2vec <span class="im">import</span> TaggedDocument, Doc2Vec</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>train_doc2vec <span class="op">=</span> [] <span class="co"># generamos lista donde iran todos los datos en el formato correcto</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> indice,documento <span class="kw">in</span> <span class="bu">enumerate</span>(x_train): <span class="co"># recorremos todos los documentos</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    train_doc2vec.append(TaggedDocument((documento), tags<span class="op">=</span>[<span class="bu">str</span>(indice)])) <span class="co"># los ponemos en el formato que pide</span></span></code></pre></div>
+</div>
+<div id="d05e1ba453226f5" class="cell markdown">
+<p><font size="4"> Una vez que tenemos los datos en el formato que
+doc2vec entiende, procedemos a entrenar el modelo. Para ello, debemos
+tener en cuenta una serie de hiper-parámetros como son el número de
+épocas, la dimensión del vector...</p>
+</div>
+<div id="9dc1d0b3f90e0ee6" class="cell code" data-execution_count="388"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:34:53.951880Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:48.011022Z&quot;}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos un objeto de tipo Doc2vec los hiperparametros </span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>modelo <span class="op">=</span> Doc2Vec(vector_size<span class="op">=</span><span class="dv">100</span>, alpha<span class="op">=</span><span class="fl">0.025</span>, epochs<span class="op">=</span><span class="dv">150</span>) </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># construimos el nuevo vocabulario</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>modelo.build_vocab(train_doc2vec)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># entrenamos el modelo</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>modelo.train(train_doc2vec, total_examples<span class="op">=</span>modelo.corpus_count, epochs<span class="op">=</span>modelo.epochs)</span></code></pre></div>
+</div>
+<div id="fa69c644be75db24" class="cell markdown">
+<p><font size="4"> Después de haber entrenado al modelo doc2vec y haber
+creado ya su propio vocabulario, vamos a obtener los vectores de cada
+uno de los tweets, es decir, le vamos a pasar al modelo estos tweets
+tokenizados y vamos a almacenar cada uno de los vectores que genere.</p>
+<p>Recordar que al final de cada conversión de texto a vector, este
+vector tendrá 100 dimensiones. </font></p>
+</div>
+<div id="fd8a75fc02393fac" class="cell code" data-execution_count="389"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:35:11.908629Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:34:53.958966Z&quot;}">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>train_doc2vec <span class="op">=</span> [] <span class="co">#vamos a guardar la lista de vectores del entrenamiento</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lista_token <span class="kw">in</span> x_train: <span class="co"># recorremos todas las listas de tokens</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    train_doc2vec.append(modelo.infer_vector(lista_token)) <span class="co"># calculamos el vector</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>test_doc2vec <span class="op">=</span> []</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lista_token <span class="kw">in</span> x_test:</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    test_doc2vec.append(modelo.infer_vector(lista_token))</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_doc2vec[:<span class="dv">4</span>]) <span class="co"># cada vector tiene 100 dimensiones</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[array([-0.14062797,  0.09875398, -0.07585453, -0.02857812,  0.18434694,
+       -0.1387832 ,  0.10142744,  0.34159335, -0.24018581, -0.07631675,
+       -0.02138226, -0.4202272 , -0.12881044, -0.03006946,  0.16327278,
+       -0.20747758, -0.07817342, -0.2472189 , -0.10383844, -0.21659261,
+        0.19587338,  0.16140544,  0.24162348,  0.17259774, -0.12968665,
+       -0.11830476, -0.20516723, -0.19021657, -0.24097204, -0.2506603 ,
+        0.2921866 ,  0.03638424,  0.1309262 , -0.2295939 , -0.22525051,
+        0.169508  , -0.01204741, -0.20450273, -0.02166341, -0.05574845,
+       -0.07186536, -0.16751656, -0.08310121, -0.269262  ,  0.14199522,
+       -0.01277472, -0.13507359, -0.14303797, -0.01166757, -0.10282386,
+        0.29369894, -0.15209551,  0.13864535,  0.09526595, -0.00998164,
+        0.1711682 ,  0.05685528,  0.07802366, -0.14267685,  0.04307059,
+       -0.01302525,  0.07492443, -0.00514739, -0.15015961, -0.25879124,
+       -0.01102039,  0.15819354,  0.09738389, -0.18512423,  0.16135229,
+        0.13790767,  0.09029181,  0.21951097, -0.22987032,  0.08970185,
+       -0.0701165 , -0.03638123,  0.03396832, -0.0896905 , -0.05158043,
+        0.16487902,  0.06214256, -0.15561907,  0.29944715, -0.07347614,
+       -0.1235091 , -0.06858785,  0.12055516,  0.16157536, -0.05458634,
+        0.22272922,  0.01349483, -0.05715517,  0.17640567,  0.09305678,
+        0.10488436,  0.08517039, -0.3102485 ,  0.00216488, -0.08735956],
+      dtype=float32), array([ 0.19792889,  0.18999311,  0.06130896, -0.30165783, -0.08022985,
+       -0.2149653 , -0.08012927,  0.2994328 , -0.0539706 , -0.08144531,
+       -0.03022289, -0.44935647,  0.04914693,  0.20398177,  0.08801191,
+       -0.11325138,  0.04143009, -0.32151216, -0.3707095 , -0.3483601 ,
+       -0.0585194 ,  0.03708201, -0.16494545, -0.03482463,  0.07673965,
+        0.04823103, -0.16177224, -0.12551726,  0.07400357,  0.08191171,
+        0.4589088 ,  0.25767216,  0.15435477,  0.14796652, -0.24510148,
+        0.00767504,  0.10135763, -0.44271964,  0.00805923, -0.37602484,
+        0.27996683, -0.16319294,  0.0035175 , -0.36307546, -0.07647166,
+       -0.21834432,  0.17963292,  0.09503055,  0.03033561,  0.17259331,
+       -0.137974  ,  0.00337828,  0.00469448,  0.19707713, -0.03927599,
+        0.01148463,  0.07860681,  0.0047257 , -0.03856441,  0.05302602,
+        0.11295806,  0.21375096,  0.28113872,  0.17544882, -0.16067837,
+        0.5444933 , -0.10326289, -0.01899783, -0.40349555,  0.03355923,
+       -0.0341108 ,  0.12540339,  0.16424204,  0.06537428,  0.3570861 ,
+        0.2023975 , -0.39943957,  0.01373887, -0.22390892,  0.2030894 ,
+        0.10521463, -0.07463036,  0.03038609,  0.0046613 ,  0.30437207,
+        0.27139637,  0.04569801,  0.20376915,  0.28171492, -0.02967829,
+       -0.0012842 ,  0.0207575 , -0.09523343,  0.24945043,  0.21937846,
+       -0.08267262,  0.02081979, -0.22863841, -0.08974633, -0.00683308],
+      dtype=float32), array([-0.20962764,  0.2893992 , -0.9605183 , -0.6130112 , -0.39723396,
+       -0.42834586,  0.2029125 ,  0.61340654,  0.02066822,  0.0667972 ,
+       -0.65693295, -0.55407804, -0.523554  ,  0.7093862 ,  0.22841123,
+       -0.18431027,  0.3695515 , -0.16756485, -0.8014122 , -0.31392688,
+       -0.02974108,  0.4952485 ,  0.09681845, -0.15573063,  0.14647129,
+        1.0832746 , -0.4716451 , -0.999417  ,  0.12657005, -0.1965071 ,
+        0.20713271,  0.4095065 , -0.69931006,  0.35837436,  0.12728687,
+        0.6131304 ,  0.91478986, -0.22547153, -0.4936481 , -0.43928826,
+       -0.09354347, -0.6799139 , -0.378598  , -0.81588876, -0.7242546 ,
+       -1.1658703 , -0.01500103, -0.26456243, -0.2522849 ,  0.02804205,
+       -0.48792955, -0.35124996,  0.5975419 , -0.3242994 , -0.10058259,
+        0.84311014,  0.04748726,  0.21806383, -0.26411134, -0.4252173 ,
+        0.44537646,  0.5214916 ,  1.7938534 ,  0.39765534, -0.4527717 ,
+        0.5461967 , -0.83499616,  0.32010266, -0.07623649, -0.00429591,
+        0.09181502, -0.18000329, -0.04370127, -0.04107546, -0.31566766,
+       -0.0977387 ,  0.30997652, -1.0874833 , -0.30461437,  0.05534323,
+        0.05492214,  0.52164537, -0.4196936 , -0.01186862,  0.20010422,
+        0.34836647,  1.4585067 , -0.68239796,  0.59121406,  0.32444516,
+        0.21108794, -0.16220847,  0.38886917,  0.6058074 ,  0.31138477,
+        0.25366592,  0.19236171, -0.6997261 , -0.68979234, -0.45863393],
+      dtype=float32), array([ 0.07993615,  0.6392769 ,  0.45353824, -0.8891866 , -0.5425421 ,
+       -1.1851054 ,  0.3901101 ,  1.3502493 , -0.76511705,  0.5625963 ,
+       -0.319653  ,  0.27712825, -0.5750738 ,  0.00518418,  0.01430824,
+        1.0293342 , -0.29259378, -0.46912453, -0.5895848 , -0.20614219,
+       -0.17069519, -0.19994783, -0.4530117 ,  0.815452  ,  0.19588085,
+        0.12343792,  0.7387453 , -0.7089956 , -0.62505174, -1.1510856 ,
+       -1.0698469 ,  0.3925423 , -1.0613939 ,  0.8354073 , -0.430448  ,
+        0.6045318 ,  0.40130854, -0.16849242,  0.79950213,  0.19664596,
+        0.05610321,  0.4668964 , -0.70240474, -0.14786363, -0.35422677,
+        0.33247265,  0.07376144, -0.17579494, -0.665349  ,  0.5805956 ,
+       -0.19854282, -1.3419133 ,  0.25109813,  0.54055166, -0.13982986,
+        0.18707433, -0.24445742, -0.59866875, -0.0862095 , -0.20986596,
+       -0.5380644 ,  0.81245255,  0.26819658,  0.08358088,  0.43910375,
+       -0.02860432, -0.43667513,  0.587803  , -0.55482244,  0.04842627,
+        1.015229  ,  0.43838325,  0.33463496, -0.66126174,  1.0893524 ,
+       -0.06480709, -0.63172704, -0.3861018 ,  0.66817856,  1.2676549 ,
+       -0.18166442,  0.37337443,  0.761475  , -0.53158367,  1.3257574 ,
+        0.2019848 ,  0.4435176 ,  0.80239594,  0.25171277,  0.0023248 ,
+        0.36608264,  1.0875235 , -0.27239686,  0.3110808 ,  0.6517744 ,
+        1.0345943 ,  0.24849863, -0.03980312, -0.12385084, -0.13099933],
+      dtype=float32)]
+</code></pre>
+</div>
+</div>
+<div id="ee54de3aa495917" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya tenemos todo preparado, procedemos a utilizar un algoritmo
+con los datos que hemos preparado, para ello, vamos a realizar una
+comparación de dos algoritmos.</p>
+<p>Utilizaremos 2 algoritmos de ML que son: Random Forest y SVM. Acto
+seguido, procederemos a calcular sus métricas partiendo de la matriz de
+confusión, con la que obtendremos el resto de métricas. </font></p>
+</div>
+<div id="b80d6e5412645848" class="cell code" data-execution_count="390"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:35:12.690287Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:35:11.969891Z&quot;}">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Algoritmo Random Forest</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>random_forest <span class="op">=</span> RandomForestClassifier(n_estimators<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>random_forest.fit(train_doc2vec, y_train)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la predicción</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>y_pred_random_forest <span class="op">=</span> random_forest.predict(test_doc2vec)</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos las metricas y la matriz de confusión</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>matriz_confusion_random_forest <span class="op">=</span> confusion_matrix(y_test, y_pred_random_forest)</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Metricas RANDOM FOREST&quot;</span>)</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred_random_forest))</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="co"># pintamos matriz de confusion</span></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">&#39;Negativo&#39;</span>, <span class="st">&#39;Neutro&#39;</span>, <span class="st">&#39;Positivo&#39;</span>]</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">5</span>))</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>sns.heatmap(matriz_confusion_random_forest, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Reds&#39;</span>, xticklabels<span class="op">=</span>labels, yticklabels<span class="op">=</span>labels)</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicciones&#39;</span>)</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Valores Reales&#39;</span>)</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de Confusión&#39;</span>)</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Metricas RANDOM FOREST
+              precision    recall  f1-score   support
+
+           0       0.67      0.96      0.79      7342
+           1       0.54      0.15      0.24      2479
+           2       0.67      0.17      0.28      1891
+
+    accuracy                           0.66     11712
+   macro avg       0.63      0.43      0.43     11712
+weighted avg       0.64      0.66      0.59     11712
+
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d00bcf8981284dc5be547fdd323bfa6b/e899925136b7cddb56a28b18bc5fa4bce3bdbb07.png" /></p>
+</div>
+</div>
+<div id="eccdfdced69a1d58" class="cell code" data-execution_count="391"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-03-18T16:35:15.759644Z&quot;,&quot;start_time&quot;:&quot;2025-03-18T16:35:12.699202Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVC</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Algoritmo Naive Bayes</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>SVM <span class="op">=</span> SVC(C<span class="op">=</span><span class="fl">1.0</span>, kernel<span class="op">=</span><span class="st">&#39;rbf&#39;</span>, gamma<span class="op">=</span><span class="st">&quot;scale&quot;</span>, class_weight<span class="op">=</span><span class="st">&quot;balanced&quot;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>SVM.fit(train_doc2vec, y_train)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la predicción</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>y_pred_SVM <span class="op">=</span> SVM.predict(test_doc2vec)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos las metricas y la matriz de confusión</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>matriz_confusion_SVM <span class="op">=</span> confusion_matrix(y_test, y_pred_SVM)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Metricas SVM&quot;</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred_SVM))</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a><span class="co"># pintamos matriz de confusion</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">&#39;Negativo&#39;</span>, <span class="st">&#39;Neutro&#39;</span>, <span class="st">&#39;Positivo&#39;</span>]</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">5</span>))</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>sns.heatmap(matriz_confusion_SVM, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Reds&#39;</span>, xticklabels<span class="op">=</span>labels, yticklabels<span class="op">=</span>labels)</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Predicciones&#39;</span>)</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Valores Reales&#39;</span>)</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de Confusión&#39;</span>)</span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Metricas SVM
+              precision    recall  f1-score   support
+
+           0       0.71      0.93      0.80      7342
+           1       0.55      0.29      0.38      2479
+           2       0.69      0.27      0.38      1891
+
+    accuracy                           0.69     11712
+   macro avg       0.65      0.50      0.52     11712
+weighted avg       0.67      0.69      0.65     11712
+
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d00bcf8981284dc5be547fdd323bfa6b/953cce0ed57866a99ee33431d290baee64b1c250.png" /></p>
+</div>
+</div>
+<div id="dbefcaab3936771c" class="cell markdown">
+<p><font size="4"> En general, los modelos de <strong>Random
+Forest</strong> y <strong>SVM</strong> muestran un buen desempeño al
+clasificar el sentimiento negativo, con <strong>Random Forest</strong>
+destacándose en <strong>recall</strong> para esta clase, mientras que
+<strong>SVM</strong> tiene un <strong>F1-score</strong> más equilibrado.
+Sin embargo, ambos modelos tienen dificultades para clasificar
+correctamente las clases neutra y positiva, con un <strong>bajo recall y
+F1-score</strong> en estas clases, especialmente para <strong>Random
+Forest</strong>. La desproporción en las clases podría estar afectando
+los resultados, lo que sugiere que una mejora en el <strong>balanceo de
+clases</strong> o el ajuste de <strong>hiperparámetros</strong> podría
+optimizar el rendimiento. Además, la <strong>mejora en las
+representaciones de texto</strong> y el
+<strong>preprocesamiento</strong> de los datos también son aspectos
+clave para aumentar la precisión en las clases minoritarias. En resumen,
+ambos modelos tienen un rendimiento adecuado, pero se pueden mejorar
+significativamente con ajustes adicionales en el preprocesamiento y la
+selección de parámetros. </font></p>
+</div>
+</body>
+</html>

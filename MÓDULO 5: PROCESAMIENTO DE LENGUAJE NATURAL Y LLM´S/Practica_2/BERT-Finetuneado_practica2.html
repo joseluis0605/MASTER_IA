@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>9833c83a89404d77921b606c89f91ced</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="RzhabKMga0iD">
+<p>En esta práctica, llevaremos a cabo un análisis de sentimientos
+utilizando un modelo transformer ajustado mediante fine-tuning. Para
+ello, partiremos de un modelo transformer previamente entrenado, al que
+adaptaremos su capa de salida para que se ajuste a nuestra tarea de
+clasificación de sentimientos.</p>
+<p>El modelo que utilizaremos es BERT, un transformer preentrenado que
+nos proporciona herramientas integradas, como la tokenización automática
+del texto.</p>
+<p>El conjunto de datos empleado será el mismo que en la primera
+práctica: comentarios extraídos de la red social Twitter, clasificados
+en tres categorías: "positivo", "negativo" y "neutral". Sin embargo, en
+esta ocasión nos centraremos exclusivamente en la clasificación binaria
+de comentarios "positivos" y "negativos".</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="RcIUK1iMay-f" data-outputId="ceb6cfc0-6420-4cd1-89a5-616ef06a0478">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>device_name <span class="op">=</span> tf.test.gpu_device_name()</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> device_name <span class="op">!=</span> <span class="st">&#39;/device:GPU:0&#39;</span>:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">raise</span> <span class="pp">SystemError</span>(<span class="st">&#39;GPU device not found&#39;</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Found GPU at: </span><span class="sc">{}</span><span class="st">&#39;</span>.<span class="bu">format</span>(device_name))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Found GPU at: /device:GPU:0
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="I7E8hmqxa_LE" data-outputId="469c0c3d-fd50-47c7-f403-efd43ccab15c">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pytorch<span class="op">-</span>pretrained<span class="op">-</span>bert pytorch<span class="op">-</span>nlp</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: pytorch-pretrained-bert in /usr/local/lib/python3.11/dist-packages (0.6.2)
+Requirement already satisfied: pytorch-nlp in /usr/local/lib/python3.11/dist-packages (0.5.0)
+Requirement already satisfied: torch&gt;=0.4.1 in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (2.6.0+cu124)
+Requirement already satisfied: numpy in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (2.0.2)
+Requirement already satisfied: boto3 in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (1.37.34)
+Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (2.32.3)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (4.67.1)
+Requirement already satisfied: regex in /usr/local/lib/python3.11/dist-packages (from pytorch-pretrained-bert) (2024.11.6)
+Requirement already satisfied: filelock in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (3.18.0)
+Requirement already satisfied: typing-extensions&gt;=4.10.0 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (4.13.1)
+Requirement already satisfied: networkx in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (3.4.2)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (3.1.6)
+Requirement already satisfied: fsspec in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (2025.3.2)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.127)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.127)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.127)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.5.8)
+Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (11.2.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (10.3.5.147)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (11.6.1.9)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.3.1.170)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.6.2 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (0.6.2)
+Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.127)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (12.4.127)
+Requirement already satisfied: triton==3.2.0 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (3.2.0)
+Requirement already satisfied: sympy==1.13.1 in /usr/local/lib/python3.11/dist-packages (from torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (1.13.1)
+Requirement already satisfied: mpmath&lt;1.4,&gt;=1.1.0 in /usr/local/lib/python3.11/dist-packages (from sympy==1.13.1-&gt;torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (1.3.0)
+Requirement already satisfied: botocore&lt;1.38.0,&gt;=1.37.34 in /usr/local/lib/python3.11/dist-packages (from boto3-&gt;pytorch-pretrained-bert) (1.37.34)
+Requirement already satisfied: jmespath&lt;2.0.0,&gt;=0.7.1 in /usr/local/lib/python3.11/dist-packages (from boto3-&gt;pytorch-pretrained-bert) (1.0.1)
+Requirement already satisfied: s3transfer&lt;0.12.0,&gt;=0.11.0 in /usr/local/lib/python3.11/dist-packages (from boto3-&gt;pytorch-pretrained-bert) (0.11.4)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.11/dist-packages (from requests-&gt;pytorch-pretrained-bert) (3.4.1)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.11/dist-packages (from requests-&gt;pytorch-pretrained-bert) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests-&gt;pytorch-pretrained-bert) (2.3.0)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests-&gt;pytorch-pretrained-bert) (2025.1.31)
+Requirement already satisfied: python-dateutil&lt;3.0.0,&gt;=2.1 in /usr/local/lib/python3.11/dist-packages (from botocore&lt;1.38.0,&gt;=1.37.34-&gt;boto3-&gt;pytorch-pretrained-bert) (2.8.2)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.11/dist-packages (from jinja2-&gt;torch&gt;=0.4.1-&gt;pytorch-pretrained-bert) (3.0.2)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil&lt;3.0.0,&gt;=2.1-&gt;botocore&lt;1.38.0,&gt;=1.37.34-&gt;boto3-&gt;pytorch-pretrained-bert) (1.17.0)
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="cvWi6Si0biiu">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.utils.data <span class="im">import</span> TensorDataset, DataLoader, RandomSampler, SequentialSampler</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.preprocessing.sequence <span class="im">import</span> pad_sequences</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pytorch_pretrained_bert <span class="im">import</span> BertTokenizer, BertConfig</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pytorch_pretrained_bert <span class="im">import</span> BertAdam, BertForSequenceClassification</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm, trange</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:36}"
+id="FS_wXB31bju5" data-outputId="e43fdd19-de1f-4a90-c023-ce3d4f87db80">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(<span class="st">&quot;cuda&quot;</span> <span class="cf">if</span> torch.cuda.is_available() <span class="cf">else</span> <span class="st">&quot;cpu&quot;</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>n_gpu <span class="op">=</span> torch.cuda.device_count()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>torch.cuda.get_device_name(<span class="dv">0</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code" id="AUwvx-kzbnLY">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;Tweets.csv&quot;</span>, delimiter<span class="op">=</span><span class="st">&#39;,&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:436}"
+id="_ZE9QyubcEfX" data-outputId="7458e062-32e5-4313-85ea-706050031f5d">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-1412dd30-9679-48c2-9cfc-775d9d388477" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tweet_id</th>
+      <th>airline_sentiment</th>
+      <th>airline_sentiment_confidence</th>
+      <th>negativereason</th>
+      <th>negativereason_confidence</th>
+      <th>airline</th>
+      <th>airline_sentiment_gold</th>
+      <th>name</th>
+      <th>negativereason_gold</th>
+      <th>retweet_count</th>
+      <th>text</th>
+      <th>tweet_coord</th>
+      <th>tweet_created</th>
+      <th>tweet_location</th>
+      <th>user_timezone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>570306133677760513</td>
+      <td>neutral</td>
+      <td>1.0000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>cairdin</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica What @dhepburn said.</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:35:52 -0800</td>
+      <td>NaN</td>
+      <td>Eastern Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>570301130888122368</td>
+      <td>positive</td>
+      <td>0.3486</td>
+      <td>NaN</td>
+      <td>0.0000</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica plus you've added commercials t...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:59 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>570301083672813571</td>
+      <td>neutral</td>
+      <td>0.6837</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>yvonnalynn</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica I didn't today... Must mean I n...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:48 -0800</td>
+      <td>Lets Play</td>
+      <td>Central Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>570301031407624196</td>
+      <td>negative</td>
+      <td>1.0000</td>
+      <td>Bad Flight</td>
+      <td>0.7033</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica it's really aggressive to blast...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:15:36 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>570300817074462722</td>
+      <td>negative</td>
+      <td>1.0000</td>
+      <td>Can't Tell</td>
+      <td>1.0000</td>
+      <td>Virgin America</td>
+      <td>NaN</td>
+      <td>jnardino</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>@VirginAmerica and it's a really big bad thing...</td>
+      <td>NaN</td>
+      <td>2015-02-24 11:14:45 -0800</td>
+      <td>NaN</td>
+      <td>Pacific Time (US &amp; Canada)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1412dd30-9679-48c2-9cfc-775d9d388477')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1412dd30-9679-48c2-9cfc-775d9d388477 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1412dd30-9679-48c2-9cfc-775d9d388477');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-6792d562-50bc-4047-902c-1f986427f1f2">
+  <button class="colab-df-quickchart" onclick="quickchart('df-6792d562-50bc-4047-902c-1f986427f1f2')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-6792d562-50bc-4047-902c-1f986427f1f2 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="NlnWNoAjh7Il">
+<p>Procedemos a quedarnos con las columnas de "text" y de
+"airline_sentiment", que son las que nos van a interesar para este
+problema</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:201}"
+id="j-0G5HdChg-P" data-outputId="1ae948ca-f731-4b86-fe58-decf69c86667">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> df[[<span class="st">&quot;text&quot;</span>, <span class="st">&quot;airline_sentiment&quot;</span>]]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>dataset.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+  <div id="df-27896f24-da98-4043-b7bf-fae966fbc2ff" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>text</th>
+      <th>airline_sentiment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>@VirginAmerica What @dhepburn said.</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>@VirginAmerica plus you've added commercials t...</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>@VirginAmerica I didn't today... Must mean I n...</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>@VirginAmerica it's really aggressive to blast...</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>@VirginAmerica and it's a really big bad thing...</td>
+      <td>negative</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-27896f24-da98-4043-b7bf-fae966fbc2ff')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-27896f24-da98-4043-b7bf-fae966fbc2ff button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-27896f24-da98-4043-b7bf-fae966fbc2ff');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-bf9a7ad7-1255-4c70-81a8-c70181993c74">
+  <button class="colab-df-quickchart" onclick="quickchart('df-bf9a7ad7-1255-4c70-81a8-c70181993c74')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-bf9a7ad7-1255-4c70-81a8-c70181993c74 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="eGye_a2JibeD">
+<p>Una vez ya tenemos nuestro dataset, vamos a entender un poco el
+dataset. Para ello, vamos a representar las salidas mediante un diagrama
+de barras.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:430}"
+id="BOxzQoaWiSgA" data-outputId="905a672c-22b0-439e-d25e-7534d5e1ec7a">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>dataset.groupby(<span class="st">&#39;airline_sentiment&#39;</span>).size().plot(kind<span class="op">=</span><span class="st">&#39;barh&#39;</span>, color<span class="op">=</span>sns.palettes.mpl_palette(<span class="st">&#39;Dark2&#39;</span>))</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>plt.gca().spines[[<span class="st">&#39;top&#39;</span>, <span class="st">&#39;right&#39;</span>,]].set_visible(<span class="va">False</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_cf9c5dd205a946619e9852a7c0dfe1f5/1b459319eb3fdaa20cdd5326c706d4f07cd61b0a.png" /></p>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="x9vxrzZUj1kW" data-outputId="7b81e2e3-285b-408e-81ba-4b5da54fe951">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># eliminamos las casillas donde el valor resultado sea &quot;neutral&quot;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> dataset[dataset[<span class="st">&quot;airline_sentiment&quot;</span>] <span class="op">!=</span> <span class="st">&quot;neutral&quot;</span>]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dataset.head())</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>posibles_resultados <span class="op">=</span> dataset[<span class="st">&quot;airline_sentiment&quot;</span>].unique()</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Posibles resultados: </span><span class="sc">{</span>posibles_resultados<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertimos la columna que tiene los resultados a formato numérico</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>label_mapping <span class="op">=</span> {</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;positive&quot;</span>: <span class="dv">1</span>,</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;negative&quot;</span>: <span class="dv">0</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Aplicamos el mapeo</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>dataset[<span class="st">&quot;airline_sentiment&quot;</span>] <span class="op">=</span> dataset[<span class="st">&quot;airline_sentiment&quot;</span>].<span class="bu">map</span>(label_mapping)</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dataset.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                                                text airline_sentiment
+1  @VirginAmerica plus you&#39;ve added commercials t...          positive
+3  @VirginAmerica it&#39;s really aggressive to blast...          negative
+4  @VirginAmerica and it&#39;s a really big bad thing...          negative
+5  @VirginAmerica seriously would pay $30 a fligh...          negative
+6  @VirginAmerica yes, nearly every time I fly VX...          positive
+Posibles resultados: [&#39;positive&#39; &#39;negative&#39;]
+                                                text  airline_sentiment
+1  @VirginAmerica plus you&#39;ve added commercials t...                  1
+3  @VirginAmerica it&#39;s really aggressive to blast...                  0
+4  @VirginAmerica and it&#39;s a really big bad thing...                  0
+5  @VirginAmerica seriously would pay $30 a fligh...                  0
+6  @VirginAmerica yes, nearly every time I fly VX...                  1
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-9-c33ce2a4ec69&gt;:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  dataset[&quot;airline_sentiment&quot;] = dataset[&quot;airline_sentiment&quot;].map(label_mapping)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="CjA4U0pyldg5">
+<p>Dado que vamos a utilizar un modelo transformer, debemos adaptar
+nuestra entrada al formato que BERT (el modelo que emplearemos) requiere
+para poder procesarla. En concreto, la entrada debe tener la siguiente
+estructura:</p>
+<p>[CLS] texto [SEP]</p>
+<p>El token [CLS] se utiliza al inicio de cada entrada y representa el
+embedding de clasificación que usará BERT para generar la predicción
+final. El token [SEP] se coloca al final y sirve para indicar la
+separación entre frases o el final de la secuencia.</p>
+<p>Una vez estructurado el texto, es necesario tokenizarlo, es decir,
+convertirlo en números que el modelo pueda entender. Las redes
+neuronales no pueden trabajar directamente con texto, por lo que este
+paso transforma cada palabra o subpalabra en un identificador numérico
+según el vocabulario del modelo.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="xM0tS_xglaH-" data-outputId="33a1b563-5230-42e4-e6d8-bf5bfc5047f3">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dividimos el dataset en conjunto de entrada (x) y conjunto de salida (y)</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> dataset[<span class="st">&quot;text&quot;</span>].values</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dataset[<span class="st">&quot;airline_sentiment&quot;</span>].values</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># convertimos al formato de entrada que necesita BERT para su tokenización</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>input_formateado <span class="op">=</span> []</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> palabra <span class="kw">in</span> x:</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  input_formateado.append(<span class="st">&quot;[CLS] &quot;</span><span class="op">+</span>palabra<span class="op">+</span><span class="st">&quot; [SEP]&quot;</span>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_formateado[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[CLS] @VirginAmerica plus you&#39;ve added commercials to the experience... tacky. [SEP]
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cKCFE2x0p_Aq" data-outputId="e09c5941-2bc7-4366-f59d-fc4c43000bca">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># procedemos a tokenizar nuestra entrada ya ajustada</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>tokenizador <span class="op">=</span> BertTokenizer.from_pretrained(<span class="st">&quot;bert-base-uncased&quot;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>input_tokenizado <span class="op">=</span> []</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> entrada <span class="kw">in</span> input_formateado:</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  entrada <span class="op">=</span> entrada.lower()</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>  input_tokenizado.append(tokenizador.tokenize(entrada))</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_tokenizado[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;[&#39;, &#39;cl&#39;, &#39;##s&#39;, &#39;]&#39;, &#39;@&#39;, &#39;virgin&#39;, &#39;##ame&#39;, &#39;##rica&#39;, &#39;plus&#39;, &#39;you&#39;, &quot;&#39;&quot;, &#39;ve&#39;, &#39;added&#39;, &#39;commercials&#39;, &#39;to&#39;, &#39;the&#39;, &#39;experience&#39;, &#39;.&#39;, &#39;.&#39;, &#39;.&#39;, &#39;tack&#39;, &#39;##y&#39;, &#39;.&#39;, &#39;[&#39;, &#39;sep&#39;, &#39;]&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="pLofv1_Wq_Sd">
+<p>La entrada en el modelo BERT debe de estar en un determinado
+formato:</p>
+<ul>
+<li>Input_ids: es un id que recibe cada palabra.</li>
+<li>Máscara de segmento: nos dice si la entrada tiene una o dos
+oraciones, es decir, por ejemplo si viene pregunta y respuesta (contaría
+como 2).</li>
+<li>Máscara de atención: hacemos un padding para ajustar y tener un
+tamaño fijo, vamos a representar con 1s donde hay palabra y con 0s donde
+no hay. Si la palabra es mayor que el tamaño de la entrada fijado, se
+hace un truncamiento, por delante o por detras.</li>
+<li>Etiqueta: la etiqueta es el resultado para esa entrada.</li>
+</ul>
+<p>Hacemos un padding para que la entrada siempre sea del mismo tamaño.
+Como estamos tratanto con textos de distinta longitud, vamos a
+establecer un tamaño máximo, de esta manera, todo lo que sea menor a
+este tamaño, se pondrá con 0s mientras que toda entrada que sea mayor,
+se hace un corte, ya sea por delante o por detras</p>
+</div>
+<div class="cell markdown" id="bUxrMZ1avXTr">
+<p>Ya tenemos el texto tokenizado, por lo que procedemos a ajustar la
+entrada a como la va a recibir el modelo BERT.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Epf0nTcDvi2Q" data-outputId="8f3e4689-7c72-42a7-9c72-107a02f24f21">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tamaño maximo de la entrada = 128</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>max_input_size <span class="op">=</span> <span class="dv">128</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># convertimos cada palabra en un id (input_ids)</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>input_ids <span class="op">=</span> []</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> entrada <span class="kw">in</span> input_tokenizado:</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  input_ids.append(tokenizador.convert_tokens_to_ids(entrada))</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="co"># aplicamos el padding para que las entradas tengan el mismo formato</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>input_padding <span class="op">=</span> []</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> entrada <span class="kw">in</span> input_ids:</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>  input_padding.append(pad_sequences([entrada], maxlen<span class="op">=</span>max_input_size, dtype<span class="op">=</span><span class="st">&quot;long&quot;</span>, truncating<span class="op">=</span><span class="st">&quot;post&quot;</span>, padding<span class="op">=</span><span class="st">&quot;post&quot;</span>))</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;*&quot;</span><span class="op">*</span><span class="dv">40</span><span class="op">+</span><span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">+</span> <span class="st">&quot;Example PADDING&quot;</span>)</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_padding[<span class="dv">0</span>])</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a><span class="co"># preparamos el input padding</span></span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>input_padding_prepared <span class="op">=</span> []</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> entrada <span class="kw">in</span> input_padding:</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>  input_padding_prepared.append(entrada[<span class="dv">0</span>])</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;*&quot;</span><span class="op">*</span><span class="dv">40</span><span class="op">+</span><span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">+</span> <span class="st">&quot;Example PADDING bueno&quot;</span>)</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_padding_prepared[<span class="dv">0</span>])</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos la mascara de atencion (1.0=hay algo, 0=nada)</span></span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>input_mascara <span class="op">=</span> []</span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> entrada <span class="kw">in</span> input_padding:</span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>  line_mask <span class="op">=</span> []</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> numero <span class="kw">in</span> entrada[<span class="dv">0</span>]:</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> numero <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a>      line_mask.append(<span class="fl">1.0</span>)</span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>      line_mask.append(<span class="fl">0.0</span>)</span>
+<span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>  input_mascara.append(line_mask)</span>
+<span id="cb19-33"><a href="#cb19-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-34"><a href="#cb19-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;*&quot;</span><span class="op">*</span><span class="dv">40</span><span class="op">+</span><span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">+</span> <span class="st">&quot;Example MASK&quot;</span>)</span>
+<span id="cb19-35"><a href="#cb19-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_mascara[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>****************************************
+Example PADDING
+[[ 1031 18856  2015  1033  1030  6261 14074 14735  4606  2017  1005  2310
+   2794 12698  2000  1996  3325  1012  1012  1012 26997  2100  1012  1031
+  19802  1033     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0     0     0     0     0
+      0     0     0     0     0     0     0     0]]
+****************************************
+Example PADDING bueno
+[ 1031 18856  2015  1033  1030  6261 14074 14735  4606  2017  1005  2310
+  2794 12698  2000  1996  3325  1012  1012  1012 26997  2100  1012  1031
+ 19802  1033     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0]
+****************************************
+Example MASK
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="zGQzI3Gf2J5c">
+<p>Ahora procedemos a dividir el dataset en conjunto de entrenamiento y
+de test. Para ello, dividiremos tanto el conjunto de padding como el
+conjunto de la mascara de atención.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="0vfFsQe23cxk" data-outputId="0b0904ec-0fd5-4714-8646-84ce91e63b03">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dividimos el conjunto de padding</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>input_train_padding, input_test_padding, output_train_padding, output_test_padding <span class="op">=</span> train_test_split(input_padding_prepared, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># dividimos el conjunto de mascaras</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>input_train_mascara, input_test_mascara, _, _ <span class="op">=</span> train_test_split(input_mascara, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(input_train_padding[<span class="dv">0</span>])</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(output_train_padding)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[ 1031 18856  2015  1033  1030  3915  4313 14035  2178  2757  2203  1012
+  2027  2069  5047  9779  1048  1004 23713  1025  1042  1012  2027  2435
+  2033  1996  2168  3478  1001  1045  2525  2018  1012 19827  1011  4029
+  2475  1011  6356  2683  2620  1006  5585  1007  1058  2213  2440  1012
+  1001  2439  1031 19802  1033     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0]
+[0 0 0 ... 1 0 0]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="RG32YoPO97DF">
+<p>Ahora convertimos los conjuntos de datos en el formato que acepta
+pytorch. Además, vamos a definir la entrada que recibirá nuestro
+transformer BERT.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="iJZjxlfW96zW" data-outputId="8931766e-ff9e-4425-fbb3-8ea12626904f">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># preparamos los datos con el formato de pytorch</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>input_train_padding <span class="op">=</span> torch.tensor(input_train_padding)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>input_test_padding <span class="op">=</span> torch.tensor(input_test_padding)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>output_train_padding <span class="op">=</span> torch.tensor(output_train_padding)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>output_test_padding <span class="op">=</span> torch.tensor(output_test_padding)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>input_train_mascara <span class="op">=</span> torch.tensor(input_train_mascara)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>input_test_mascara <span class="op">=</span> torch.tensor(input_test_mascara)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-14-5de2651a4355&gt;:2: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  input_train_padding = torch.tensor(input_train_padding)
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="_SLjE5YqDpd6">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fijamos el tamaño del batch</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>batch_size <span class="op">=</span> <span class="dv">32</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos un conjunto de datos de entrada para entrenamiento</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> TensorDataset(input_train_padding, input_train_mascara, output_train_padding)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos un seleccionador aleatorio de muestras</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>train_sampler <span class="op">=</span> RandomSampler(train_data)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos un objeto que va cargando los datos al entrenamiento</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>train_dataloader <span class="op">=</span> DataLoader(train_data, sampler<span class="op">=</span>train_sampler, batch_size<span class="op">=</span>batch_size)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos conjunto de datos de entrada para el test</span></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> TensorDataset(input_test_padding, input_test_mascara, output_test_padding)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos el seleccionador de muestras aleatorio</span></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>test_sampler <span class="op">=</span> SequentialSampler(test_data)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos el cargador de datos en el entrenamiento</span></span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>test_dataloader <span class="op">=</span> DataLoader(test_data, sampler<span class="op">=</span>test_sampler, batch_size<span class="op">=</span>batch_size)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="2hiF4rjMG96I">
+<p>Ya tenemos todo listo. Ahora solo nos falta definir el modelo BERT
+configurado para fine-tuning, es decir, añadir una pequeña red neuronal
+encima del transformador. Esta capa adicional ajustará sus pesos durante
+el entrenamiento para ofrecer la salida que buscamos: la clasificación
+de sentimientos.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="U3FNN1Y4crZh" data-outputId="4197277d-53f5-4d04-d24f-80ea5bc124d0">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargamos BertForSequenceClassification, que es un modelo BERT ya preentrenado, con una simple capa final para clasificar</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>modelo <span class="op">=</span> BertForSequenceClassification.from_pretrained(<span class="st">&quot;bert-base-uncased&quot;</span>, num_labels<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>modelo.cuda()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>BertForSequenceClassification(
+  (bert): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(30522, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): BertLayerNorm()
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): BertLayerNorm()
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): BertLayerNorm()
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.1, inplace=False)
+  (classifier): Linear(in_features=768, out_features=2, bias=True)
+)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="PoZfHoG5ILPt">
+<p>Preparamos los distintos hiperparámetros que vamos a usar, en donde,
+el modelo se quedará con el mejor.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="zJ1txqnqcwE-" data-outputId="f4501757-35a3-4ea6-d6bf-572e7317f580">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co">param_optimizer = list(modelo.named_parameters())</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co">no_decay = [&#39;bias&#39;, &#39;gamma&#39;, &#39;beta&#39;]</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co">optimizer_grouped_parameters = [</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="co">    {&#39;params&#39;: [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)],</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="co">     &#39;weight_decay_rate&#39;: 0.01},</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="co">    {&#39;params&#39;: [p for n, p in param_optimizer if any(nd in n for nd in no_decay)],</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="co">     &#39;weight_decay_rate&#39;: 0.0}</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="co">]</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>optimizador <span class="op">=</span> BertAdam(modelo.parameters(),</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>                     lr<span class="op">=</span><span class="fl">2e-5</span>,</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>                     warmup<span class="op">=</span><span class="fl">.1</span>)</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>WARNING:pytorch_pretrained_bert.optimization:t_total value of -1 results in schedule not being applied
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="-kVbaYr-KRIv">
+<p>Para el entrenamiento y la validación, utilizaremos el código
+proporcionado por el profesor durante las clases.</p>
+</div>
+<div class="cell code" id="CuQ1Axuoc4Oi">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># funcion que calcula el accuracy de nuestras predicciones vs valor real</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> flat_accuracy(preds, labels):</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    pred_flat <span class="op">=</span> np.argmax(preds, axis<span class="op">=</span><span class="dv">1</span>).flatten()</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    labels_flat <span class="op">=</span> labels.flatten()</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.<span class="bu">sum</span>(pred_flat <span class="op">==</span> labels_flat) <span class="op">/</span> <span class="bu">len</span>(labels_flat)</span></code></pre></div>
+</div>
+<div class="cell code" id="9Bdj4nOiPBjQ">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BOj8p175c8e4" data-outputId="27216d57-77ac-49b5-c0ba-e866d62ff7fc">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Store our loss and accuracy for plotting</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>train_loss_set <span class="op">=</span> []</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of training epochs (authors recommend between 2 and 4)</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="co"># trange is a tqdm wrapper around the normal python range</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _ <span class="kw">in</span> trange(epochs, desc<span class="op">=</span><span class="st">&quot;Epoch&quot;</span>):</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Training</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>  modelo.train()</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>  tr_loss <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>  nb_tr_examples, nb_tr_steps <span class="op">=</span> <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> step, batch <span class="kw">in</span> <span class="bu">enumerate</span>(train_dataloader):</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>    batch <span class="op">=</span> <span class="bu">tuple</span>(t.to(device) <span class="cf">for</span> t <span class="kw">in</span> batch)</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>    b_input_ids, b_input_mask, b_labels <span class="op">=</span> batch</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a>    optimizador.zero_grad()</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> modelo(b_input_ids, token_type_ids<span class="op">=</span><span class="va">None</span>, attention_mask<span class="op">=</span>b_input_mask, labels<span class="op">=</span>b_labels)</span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a>    train_loss_set.append(loss.item())</span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a>    loss.backward()</span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a>    optimizador.step()</span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-27"><a href="#cb32-27" aria-hidden="true" tabindex="-1"></a>    tr_loss <span class="op">+=</span> loss.item()</span>
+<span id="cb32-28"><a href="#cb32-28" aria-hidden="true" tabindex="-1"></a>    nb_tr_examples <span class="op">+=</span> b_input_ids.size(<span class="dv">0</span>)</span>
+<span id="cb32-29"><a href="#cb32-29" aria-hidden="true" tabindex="-1"></a>    nb_tr_steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb32-30"><a href="#cb32-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-31"><a href="#cb32-31" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;Train loss: </span><span class="sc">{:.4f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(tr_loss <span class="op">/</span> nb_tr_steps))</span>
+<span id="cb32-32"><a href="#cb32-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-33"><a href="#cb32-33" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Validation</span></span>
+<span id="cb32-34"><a href="#cb32-34" aria-hidden="true" tabindex="-1"></a>  modelo.<span class="bu">eval</span>()</span>
+<span id="cb32-35"><a href="#cb32-35" aria-hidden="true" tabindex="-1"></a>  eval_accuracy <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb32-36"><a href="#cb32-36" aria-hidden="true" tabindex="-1"></a>  nb_eval_steps <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb32-37"><a href="#cb32-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-38"><a href="#cb32-38" aria-hidden="true" tabindex="-1"></a>  all_preds <span class="op">=</span> []</span>
+<span id="cb32-39"><a href="#cb32-39" aria-hidden="true" tabindex="-1"></a>  all_labels <span class="op">=</span> []</span>
+<span id="cb32-40"><a href="#cb32-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-41"><a href="#cb32-41" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> batch <span class="kw">in</span> test_dataloader:</span>
+<span id="cb32-42"><a href="#cb32-42" aria-hidden="true" tabindex="-1"></a>    batch <span class="op">=</span> <span class="bu">tuple</span>(t.to(device) <span class="cf">for</span> t <span class="kw">in</span> batch)</span>
+<span id="cb32-43"><a href="#cb32-43" aria-hidden="true" tabindex="-1"></a>    b_input_ids, b_input_mask, b_labels <span class="op">=</span> batch</span>
+<span id="cb32-44"><a href="#cb32-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-45"><a href="#cb32-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb32-46"><a href="#cb32-46" aria-hidden="true" tabindex="-1"></a>      outputs <span class="op">=</span> modelo(b_input_ids, token_type_ids<span class="op">=</span><span class="va">None</span>, attention_mask<span class="op">=</span>b_input_mask)</span>
+<span id="cb32-47"><a href="#cb32-47" aria-hidden="true" tabindex="-1"></a>      logits <span class="op">=</span> outputs.logits <span class="cf">if</span> <span class="bu">hasattr</span>(outputs, <span class="st">&#39;logits&#39;</span>) <span class="cf">else</span> outputs</span>
+<span id="cb32-48"><a href="#cb32-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-49"><a href="#cb32-49" aria-hidden="true" tabindex="-1"></a>    logits <span class="op">=</span> logits.detach().cpu().numpy()</span>
+<span id="cb32-50"><a href="#cb32-50" aria-hidden="true" tabindex="-1"></a>    label_ids <span class="op">=</span> b_labels.to(<span class="st">&#39;cpu&#39;</span>).numpy()</span>
+<span id="cb32-51"><a href="#cb32-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-52"><a href="#cb32-52" aria-hidden="true" tabindex="-1"></a>    tmp_eval_accuracy <span class="op">=</span> flat_accuracy(logits, label_ids)</span>
+<span id="cb32-53"><a href="#cb32-53" aria-hidden="true" tabindex="-1"></a>    eval_accuracy <span class="op">+=</span> tmp_eval_accuracy</span>
+<span id="cb32-54"><a href="#cb32-54" aria-hidden="true" tabindex="-1"></a>    nb_eval_steps <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb32-55"><a href="#cb32-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-56"><a href="#cb32-56" aria-hidden="true" tabindex="-1"></a>    preds <span class="op">=</span> np.argmax(logits, axis<span class="op">=</span><span class="dv">1</span>).flatten()</span>
+<span id="cb32-57"><a href="#cb32-57" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> label_ids.flatten()</span>
+<span id="cb32-58"><a href="#cb32-58" aria-hidden="true" tabindex="-1"></a>    all_preds.extend(preds)</span>
+<span id="cb32-59"><a href="#cb32-59" aria-hidden="true" tabindex="-1"></a>    all_labels.extend(labels)</span>
+<span id="cb32-60"><a href="#cb32-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-61"><a href="#cb32-61" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;Validation Accuracy: </span><span class="sc">{:.4f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(eval_accuracy <span class="op">/</span> nb_eval_steps))</span>
+<span id="cb32-62"><a href="#cb32-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-63"><a href="#cb32-63" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Classification report</span></span>
+<span id="cb32-64"><a href="#cb32-64" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Classification Report:&quot;</span>)</span>
+<span id="cb32-65"><a href="#cb32-65" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(classification_report(all_labels, all_preds, target_names<span class="op">=</span>[<span class="st">&quot;negativo&quot;</span>, <span class="st">&quot;positivo&quot;</span>]))</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Epoch:   0%|          | 0/2 [00:00&lt;?, ?it/s]</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Train loss: 0.2375
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch:  50%|█████     | 1/2 [04:07&lt;04:07, 247.02s/it]</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Validation Accuracy: 0.9360
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negativo       0.96      0.97      0.96      1862
+    positivo       0.85      0.82      0.84       447
+
+    accuracy                           0.94      2309
+   macro avg       0.91      0.89      0.90      2309
+weighted avg       0.94      0.94      0.94      2309
+
+Train loss: 0.1254
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch: 100%|██████████| 2/2 [08:16&lt;00:00, 248.20s/it]</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Validation Accuracy: 0.9348
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negativo       0.96      0.96      0.96      1862
+    positivo       0.83      0.85      0.84       447
+
+    accuracy                           0.94      2309
+   macro avg       0.90      0.90      0.90      2309
+weighted avg       0.94      0.94      0.94      2309
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:373}"
+id="sPbdMCCXdK89" data-outputId="140721df-b6ce-46bc-db0c-2edee26a6f5c">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">8</span>))</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Training loss&quot;</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Batch&quot;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Loss&quot;</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>plt.plot(train_loss_set)</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_cf9c5dd205a946619e9852a7c0dfe1f5/0cd9e4afaf10c8bb54e2937242b62a218bcfe035.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="AtdYzmzLVXpB">
+<p>Calculamos la matriz de confusión y a través de ella, calcularemos el
+resto de métricas para ver como de bien está fine-tuneado nuestro
+modelo.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="AjP-5p93SKoh" data-outputId="c7cd51bd-5c24-4ded-ed24-3beacbf6ac22">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix, ConfusionMatrixDisplay</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>matriz_confusion <span class="op">=</span> confusion_matrix(all_labels, all_preds)</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(matriz_confusion)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Classification report</span></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Classification Report:&quot;</span>)</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(all_labels, all_preds, target_names<span class="op">=</span>[<span class="st">&quot;negativo&quot;</span>, <span class="st">&quot;positivo&quot;</span>]))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[1783   79]
+ [  68  379]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negativo       0.96      0.96      0.96      1862
+    positivo       0.83      0.85      0.84       447
+
+    accuracy                           0.94      2309
+   macro avg       0.90      0.90      0.90      2309
+weighted avg       0.94      0.94      0.94      2309
+
+</code></pre>
+</div>
+</div>
+</body>
+</html>
