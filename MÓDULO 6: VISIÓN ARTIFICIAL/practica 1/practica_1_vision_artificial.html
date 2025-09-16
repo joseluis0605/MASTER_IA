@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d9a029d2a50c4300a4f6edf3a81ca118</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="eb18e734d8f92963" class="cell markdown">
+<p><font size="4"></p>
+<h2
+id="práctica-1-clasificación-de-imágenes-usando-transfer-learning">Práctica
+1: Clasificación de Imágenes usando Transfer Learning</h2>
+<p>Se adjunta como anexo el conjunto de datos Skin-Cancer. Dicho
+conjunto de datos contiene imágenes de diversos tumores cutáneos
+divididos en dos clases: Maligno o Benigno. Se busca desarrollar un
+algoritmo que clasifique los tumores del conjunto de datos proporcionado
+en Malignos mediante redes neuronales en PyTorch. Se pide partir de un
+algoritmo de Deep Learning preentrenado en una topología ya disponible
+(VGG, ResNet, etc.) y aplicar Transfer Learning.</p>
+</div>
+<div id="initial_id" class="cell code" data-execution_count="1"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T18:29:19.917481Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T18:29:02.441908Z&quot;}"
+data-collapsed="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> kagglehub</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sympy.printing.pytorch <span class="im">import</span> torch</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Download latest version</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#path = kagglehub.dataset_download(&quot;fanconic/skin-cancer-malignant-vs-benign&quot;)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#print(&quot;Path to dataset files:&quot;, path)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Warning: Looks like you&#39;re using an outdated `kagglehub` version, please consider updating (latest version: 0.3.12)
+Downloading from https://www.kaggle.com/api/v1/datasets/download/fanconic/skin-cancer-malignant-vs-benign?dataset_version_number=4...
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 325M/325M [00:15&lt;00:00, 22.4MB/s] </code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Extracting model files...
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Path to dataset files: /Users/joseluismezquitajimenez/.cache/kagglehub/datasets/fanconic/skin-cancer-malignant-vs-benign/versions/4
+</code></pre>
+</div>
+</div>
+<div id="2dfc3852906f4247" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya tenemos descargado el dataset de imágenes, procedemos a
+importar las librerías</p>
+</div>
+<div id="199506626bf31c24" class="cell code" data-execution_count="83"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:43:47.866398Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:43:47.860913Z&quot;}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># importamos librerias</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.optim <span class="im">as</span> optim</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torchvision.models <span class="im">import</span> resnet18, ResNet18_Weights</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torchvision <span class="im">import</span> transforms, datasets</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.utils.data <span class="im">import</span> DataLoader</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm</span></code></pre></div>
+</div>
+<div id="4e19de880948172c" class="cell markdown">
+<p><font size="4"></p>
+<p>A continuación vamos a definir el device que será el lugar de
+procesamiento al que enviaremos los datos. En este caso, usaremos mps,
+ya que este ordenador es un MacBook Pro M3, mientras que los ordenadores
+windows usan cuda como gráfica.</p>
+</div>
+<div id="bb1b866065143748" class="cell code" data-execution_count="84"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:43:49.251188Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:43:49.247933Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el device al que le enviaremos los datos y el modelo</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(<span class="st">&quot;mps&quot;</span> <span class="cf">if</span>  torch.mps.is_available() <span class="cf">else</span> <span class="st">&quot;cpu&quot;</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(device)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>mps
+</code></pre>
+</div>
+</div>
+<div id="f3f864788e4a75b" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya tenemos el dataset descargado con las imágenes en su
+correspondiente carpeta, debemos transformarlo a tensor, que es la
+estructura que se utilizan en las redes neuronales convolucionales.</p>
+<p>Para ello, vamos a usar la funcion transforms.Compose(), con la que
+estableceremos una especie de pipeline, en donde, haremos todas las
+transformaciones al dataset (toTensor, resize...)</p>
+</div>
+<div id="d8fe1f3ade687195" class="cell code" data-execution_count="85"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:43:51.237875Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:43:51.233958Z&quot;}">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># realizamos transformaciones</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>transformaciones <span class="op">=</span> transforms.Compose([transforms.ToTensor(), <span class="co"># convertimos a tensor</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>                                       transforms.Resize((<span class="dv">224</span>, <span class="dv">224</span>)), <span class="co"># ajustamos tamaño a 224x224</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>                                       transforms.Normalize(mean<span class="op">=</span>[<span class="fl">0.485</span>, <span class="fl">0.456</span>, <span class="fl">0.406</span>], <span class="co"># normalizamos con media y deviacion</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>                                                            std<span class="op">=</span>[<span class="fl">0.229</span>, <span class="fl">0.224</span>, <span class="fl">0.225</span>]),</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>                                       ])</span></code></pre></div>
+</div>
+<div id="fc952742a50bca12" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya tenemos establecida la transformación que se le va a
+aplicar a las imagenes, vamos a definir el dataloader de entrenamiento y
+de test, aplicándoles la transformación. Además, indicaremos el batch
+para el conjunto de entrenamiento.</p>
+</div>
+<div id="3a4e83a93125cc09" class="cell code" data-execution_count="96"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:49:04.496194Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:49:04.487897Z&quot;}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># lectura de imagenes de un dataset</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>dataset_train <span class="op">=</span> datasets.ImageFolder(<span class="st">&quot;dataset/train&quot;</span>, transform<span class="op">=</span>transformaciones)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>dataset_test <span class="op">=</span> datasets.ImageFolder(<span class="st">&quot;dataset/test&quot;</span>, transform<span class="op">=</span>transformaciones)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(dataset_train), <span class="bu">len</span>(dataset_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="96">
+<pre><code>(2637, 660)</code></pre>
+</div>
+</div>
+<div id="3a93c1ffedff64a4" class="cell markdown">
+<p><font size="4"></p>
+<p>Ya hemos leido los directorios y las imágenes se encuentran
+almacenadas junto a su valor en dataset_train y dataset_test. A
+continuación mostramos el formato que tiene una tupla (imagen_tensor,
+valor).</p>
+<p>Como podemos ver, se trata de una imagen de 3 canales RGB (lo que
+significa que es una imagen de color) y su etiqueta.</p>
+</div>
+<div id="3603943285698d8" class="cell code" data-execution_count="87"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:43:55.774150Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:43:55.764913Z&quot;}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>imagen, valor <span class="op">=</span> dataset_train[<span class="dv">0</span>]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>imagen.shape, valor</span></code></pre></div>
+<div class="output execute_result" data-execution_count="87">
+<pre><code>(torch.Size([3, 224, 224]), 0)</code></pre>
+</div>
+</div>
+<div id="4cb8e82373b0aad3" class="cell code" data-execution_count="88"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:43:59.645600Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:43:56.797064Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># recuento de cada etiqueta</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>v1 <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>v0 <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> imagen, valor <span class="kw">in</span> dataset_train:</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> valor <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        v1 <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>        v0 <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;valor 1: </span><span class="sc">{</span>v1<span class="sc">}</span><span class="ss">, valor 0: </span><span class="sc">{</span>v0<span class="sc">}</span><span class="ss">, total = </span><span class="sc">{</span>v1<span class="op">+</span>v0<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>valor 1: 1197, valor 0: 1440, total = 2637
+</code></pre>
+</div>
+</div>
+<div id="8e539d5713b543be" class="cell markdown">
+<p><font size="4"></p>
+<p>Preparamos el dataset aplicando la función Dataloader, la cual nos va
+a permitir añadir una dimensión más al tensor. Esta nueva dimensión hace
+referencia al tamaño del batch.</p>
+</div>
+<div id="7a64e5354d45df4e" class="cell code" data-execution_count="89"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:44:00.984224Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:44:00.980898Z&quot;}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>dataset_train <span class="op">=</span> DataLoader(dataset_train, batch_size<span class="op">=</span><span class="dv">64</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>dataset_test <span class="op">=</span> DataLoader(dataset_test, batch_size<span class="op">=</span><span class="dv">64</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="5e80829077fe643e" class="cell markdown">
+<p><font size="4"></p>
+<p>Ya tenemos todo preparado, ahora es el momento de seleccionar el
+modelo pre-entrenado. En nuestro caso, vamos a utilizar el modelo
+conocido como ResNet18.</p>
+<p><strong>ResNet18</strong> es una arquitectura de red neuronal
+convolucional diseñada para tareas de visión por computadora, como
+clasificación de imágenes, que forma parte de la familia de las redes
+residuales (<em>Residual Networks</em>). Su principal innovación son los
+<strong>bloques residuales</strong>, que utilizan <em>skip
+connections</em> (conexiones de atajo) para permitir que la información
+fluya directamente entre capas no contiguas, lo cual facilita el
+entrenamiento de redes más profundas al evitar el problema del
+<em>vanishing gradient</em>. ResNet18 tiene <strong>18 capas con pesos
+entrenables</strong>, incluyendo convoluciones y una única capa densa
+final, lo que la hace compacta y eficiente. Es especialmente útil cuando
+se entrena con datasets de tamaño moderado o cuando se hace <em>transfer
+learning</em> usando pesos preentrenados en grandes conjuntos como
+ImageNet.</p>
+<p>A continuación, se muestra una imagen sobre la arquitectura que
+tiene: <img src="Original-ResNet-18-Architecture.png"
+alt="Resnet" /></p>
+<p>En el siguiente fragmento de código, vamos a crearnos una instancia
+del modelo pre-entrenado, en donde, congelaremos los pesos de las capas
+para aprovecharnos de esa ventaja. Después vamos a modificar la salida
+ajustándola a nuestro problema.</p>
+<p>Para ello, nuestra red neuronal tendra N entradas, luego pasará por 3
+capas ocultas de 128, 64 y 16 neuronas y, terminando por la capa de
+salida formada por 2 únicas neuronas.</p>
+</div>
+<div id="f2e89498eb7408e3" class="cell code" data-execution_count="90"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:44:03.827192Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:44:03.608532Z&quot;}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># obtenemos los pesos</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>pesos <span class="op">=</span> ResNet18_Weights.DEFAULT</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># creamos instancia del modelo</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>modelo <span class="op">=</span> torchvision.models.resnet18(weights<span class="op">=</span>pesos)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co"># congelamos las capas convolucionales para no modificar pesos en el train</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> parametro <span class="kw">in</span> modelo.parameters():</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    parametro.requires_grad <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co"># modificamos la salida ajustandola a nuestro problema (output=2)</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>modelo.fc <span class="op">=</span> nn.Sequential(</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    nn.Linear(modelo.fc.in_features, <span class="dv">128</span>),</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    nn.ReLU(),</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    nn.Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    nn.Linear(<span class="dv">128</span>, <span class="dv">64</span>),</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>    nn.ReLU(),</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>    nn.Dropout(<span class="fl">0.4</span>),</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>    nn.Linear(<span class="dv">64</span>, <span class="dv">16</span>),</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>    nn.ReLU(),</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>    nn.Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>    nn.Linear(<span class="dv">16</span>, <span class="dv">2</span>),</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a><span class="co"># enciamos modelo al device</span></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>modelo <span class="op">=</span> modelo.to(device)</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Información del modelo</span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>modelo<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Información del modelo
+ ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer4): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Sequential(
+    (0): Linear(in_features=512, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.5, inplace=False)
+    (3): Linear(in_features=128, out_features=64, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.4, inplace=False)
+    (6): Linear(in_features=64, out_features=16, bias=True)
+    (7): ReLU()
+    (8): Dropout(p=0.5, inplace=False)
+    (9): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+</code></pre>
+</div>
+</div>
+<div id="c29ea4f21a50fb06" class="cell markdown">
+<p><font size="4"></p>
+<p>Ya tenemos todo preparado, solo nos queda entrenar el modelo. Para
+ello, antes de nada, debemos definir la función de pérdida, la función
+de optimización, que es la encargada de ajustar los pesos.</p>
+<p>Después de esto, entrenamos el modelo.</p>
+</div>
+<div id="595cfa045a6ca48" class="cell code" data-execution_count="91"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:46:07.343877Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:44:07.940654Z&quot;}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># funcion de coste</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>funcion_perdida <span class="op">=</span> nn.CrossEntropyLoss()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># funcion de optimizacion</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>optimizer <span class="op">=</span> torch.optim.Adam(modelo.parameters(), lr<span class="op">=</span><span class="fl">0.001</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Inicializar listas para guardar métricas</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>train_losses, train_accuracies <span class="op">=</span> [], []</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>test_losses, test_accuracies <span class="op">=</span> [], []</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Inicializar listas para guardar métricas</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(epochs):</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    modelo.train()</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>    running_loss, correct, total <span class="op">=</span> <span class="fl">0.0</span>, <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>    bar <span class="op">=</span> tqdm(dataset_train, desc<span class="op">=</span><span class="ss">f&quot;Epoch </span><span class="sc">{</span>epoch<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> images, labels <span class="kw">in</span> bar:</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>        images, labels <span class="op">=</span> images.to(device), labels.to(device)</span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>        optimizer.zero_grad()</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>        outputs <span class="op">=</span> modelo(images)</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a>        loss <span class="op">=</span> funcion_perdida(outputs, labels)</span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>        loss.backward()</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>        optimizer.step()</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>        running_loss <span class="op">+=</span> loss.item()</span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a>        _, predicted <span class="op">=</span> outputs.<span class="bu">max</span>(<span class="dv">1</span>)</span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a>        correct <span class="op">+=</span> predicted.eq(labels).<span class="bu">sum</span>().item()</span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>        total <span class="op">+=</span> labels.size(<span class="dv">0</span>)</span>
+<span id="cb20-30"><a href="#cb20-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-31"><a href="#cb20-31" aria-hidden="true" tabindex="-1"></a>        bar.set_postfix(loss<span class="op">=</span>running_loss <span class="op">/</span> <span class="bu">len</span>(dataset_train))</span>
+<span id="cb20-32"><a href="#cb20-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-33"><a href="#cb20-33" aria-hidden="true" tabindex="-1"></a>    train_losses.append(running_loss <span class="op">/</span> <span class="bu">len</span>(dataset_train))</span>
+<span id="cb20-34"><a href="#cb20-34" aria-hidden="true" tabindex="-1"></a>    train_accuracies.append(correct <span class="op">/</span> total)</span>
+<span id="cb20-35"><a href="#cb20-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-36"><a href="#cb20-36" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evaluación en test dentro del bucle para guardar cada época</span></span>
+<span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a>    modelo.<span class="bu">eval</span>()</span>
+<span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a>    test_loss, correct_test, total_test <span class="op">=</span> <span class="fl">0.0</span>, <span class="dv">0</span>, <span class="dv">0</span></span>
+<span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> images, labels <span class="kw">in</span> dataset_test:</span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>            images, labels <span class="op">=</span> images.to(device), labels.to(device)</span>
+<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>            outputs <span class="op">=</span> modelo(images)</span>
+<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> funcion_perdida(outputs, labels)</span>
+<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a>            test_loss <span class="op">+=</span> loss.item()</span>
+<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a>            _, predicted <span class="op">=</span> outputs.<span class="bu">max</span>(<span class="dv">1</span>)</span>
+<span id="cb20-46"><a href="#cb20-46" aria-hidden="true" tabindex="-1"></a>            correct_test <span class="op">+=</span> predicted.eq(labels).<span class="bu">sum</span>().item()</span>
+<span id="cb20-47"><a href="#cb20-47" aria-hidden="true" tabindex="-1"></a>            total_test <span class="op">+=</span> labels.size(<span class="dv">0</span>)</span>
+<span id="cb20-48"><a href="#cb20-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-49"><a href="#cb20-49" aria-hidden="true" tabindex="-1"></a>    test_losses.append(test_loss <span class="op">/</span> <span class="bu">len</span>(dataset_test))</span>
+<span id="cb20-50"><a href="#cb20-50" aria-hidden="true" tabindex="-1"></a>    test_accuracies.append(correct_test <span class="op">/</span> total_test)</span>
+<span id="cb20-51"><a href="#cb20-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-52"><a href="#cb20-52" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Epoch </span><span class="sc">{</span>epoch<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss"> completada.&quot;</span>)</span>
+<span id="cb20-53"><a href="#cb20-53" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Train -&gt; Loss: </span><span class="sc">{</span>train_losses[<span class="op">-</span><span class="dv">1</span>]<span class="sc">:.4f}</span><span class="ss">, Acc: </span><span class="sc">{</span>train_accuracies[<span class="op">-</span><span class="dv">1</span>]<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb20-54"><a href="#cb20-54" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Test  -&gt; Loss: </span><span class="sc">{</span>test_losses[<span class="op">-</span><span class="dv">1</span>]<span class="sc">:.4f}</span><span class="ss">, Acc: </span><span class="sc">{</span>test_accuracies[<span class="op">-</span><span class="dv">1</span>]<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Epoch 1: 100%|██████████| 42/42 [00:10&lt;00:00,  4.17it/s, loss=0.589]
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 1 completada.
+  Train -&gt; Loss: 0.5890, Acc: 0.6701
+  Test  -&gt; Loss: 0.4107, Acc: 0.8121
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 2: 100%|██████████| 42/42 [00:10&lt;00:00,  4.12it/s, loss=0.479]
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 2 completada.
+  Train -&gt; Loss: 0.4793, Acc: 0.7812
+  Test  -&gt; Loss: 0.3889, Acc: 0.8167
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 3: 100%|██████████| 42/42 [00:09&lt;00:00,  4.34it/s, loss=0.412] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 3 completada.
+  Train -&gt; Loss: 0.4119, Acc: 0.8244
+  Test  -&gt; Loss: 0.3614, Acc: 0.8379
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 4: 100%|██████████| 42/42 [00:09&lt;00:00,  4.44it/s, loss=0.382] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 4 completada.
+  Train -&gt; Loss: 0.3823, Acc: 0.8362
+  Test  -&gt; Loss: 0.3595, Acc: 0.8197
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 5: 100%|██████████| 42/42 [00:09&lt;00:00,  4.43it/s, loss=0.373] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 5 completada.
+  Train -&gt; Loss: 0.3728, Acc: 0.8271
+  Test  -&gt; Loss: 0.3339, Acc: 0.8424
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 6: 100%|██████████| 42/42 [00:09&lt;00:00,  4.33it/s, loss=0.339] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 6 completada.
+  Train -&gt; Loss: 0.3391, Acc: 0.8502
+  Test  -&gt; Loss: 0.3404, Acc: 0.8439
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 7: 100%|██████████| 42/42 [00:09&lt;00:00,  4.27it/s, loss=0.309] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 7 completada.
+  Train -&gt; Loss: 0.3095, Acc: 0.8567
+  Test  -&gt; Loss: 0.3264, Acc: 0.8424
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 8: 100%|██████████| 42/42 [00:09&lt;00:00,  4.64it/s, loss=0.32]  
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 8 completada.
+  Train -&gt; Loss: 0.3204, Acc: 0.8574
+  Test  -&gt; Loss: 0.3190, Acc: 0.8485
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 9: 100%|██████████| 42/42 [00:09&lt;00:00,  4.55it/s, loss=0.303] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 9 completada.
+  Train -&gt; Loss: 0.3032, Acc: 0.8631
+  Test  -&gt; Loss: 0.3177, Acc: 0.8439
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>Epoch 10: 100%|██████████| 42/42 [00:09&lt;00:00,  4.37it/s, loss=0.328] 
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Epoch 10 completada.
+  Train -&gt; Loss: 0.3282, Acc: 0.8464
+  Test  -&gt; Loss: 0.3454, Acc: 0.8167
+</code></pre>
+</div>
+</div>
+<div id="9308aefbb2b1feb1" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya está entrenado y evaluado el modelo, pasamos a las
+métricas. Para ello, procederemos a dibujar la curva de pérdida, de
+precisión y la matriz de confusión.</p>
+</div>
+<div id="2af0112c1140427d" class="cell code" data-execution_count="92"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:46:07.521333Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:46:07.407980Z&quot;}">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">5</span>))</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Curva de pérdida</span></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>plt.plot(train_losses, label<span class="op">=</span><span class="st">&#39;Train Loss&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>plt.plot(test_losses, label<span class="op">=</span><span class="st">&#39;Test Loss&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Curva de pérdida&quot;</span>)</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Época&quot;</span>)</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Loss&quot;</span>)</span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Curva de precisión</span></span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>plt.plot(train_accuracies, label<span class="op">=</span><span class="st">&#39;Train Accuracy&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a>plt.plot(test_accuracies, label<span class="op">=</span><span class="st">&#39;Test Accuracy&#39;</span>, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Curva de precisión&quot;</span>)</span>
+<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Época&quot;</span>)</span>
+<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Accuracy&quot;</span>)</span>
+<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb41-23"><a href="#cb41-23" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb41-24"><a href="#cb41-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-25"><a href="#cb41-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb41-26"><a href="#cb41-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_03825735419d44ccbcb9184feefcdd48/9e07e8ff6149ff43a58ef85990675c0b49f0e385.png" /></p>
+</div>
+</div>
+<div id="7f4fb54dff54015b" class="cell code" data-execution_count="93"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-05-30T21:46:09.940118Z&quot;,&quot;start_time&quot;:&quot;2025-05-30T21:46:07.669604Z&quot;}">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix, ConfusionMatrixDisplay</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>modelo.<span class="bu">eval</span>()</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>all_preds, all_labels <span class="op">=</span> [], []</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> torch.no_grad():</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> images, labels <span class="kw">in</span> dataset_test:</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>        images <span class="op">=</span> images.to(device)</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>        outputs <span class="op">=</span> modelo(images)</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>        _, preds <span class="op">=</span> outputs.<span class="bu">max</span>(<span class="dv">1</span>)</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>        all_preds.extend(preds.cpu().numpy())</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>        all_labels.extend(labels.numpy())</span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(all_labels, all_preds)</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>disp <span class="op">=</span> ConfusionMatrixDisplay(confusion_matrix<span class="op">=</span>cm)</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>disp.plot(cmap<span class="op">=</span><span class="st">&quot;Blues&quot;</span>)</span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Matriz de Confusión&quot;</span>)</span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_03825735419d44ccbcb9184feefcdd48/1f6dd626bd4f620056571d73b915734f3c294dc8.png" /></p>
+</div>
+</div>
+<div id="75a0416099a35301" class="cell markdown">
+<p><font size="4"></p>
+<p>Como podemos observar en las gráficas de pérdida y de precisión,
+conforme van ejecutándose las épocas, los resultados van mejorando.
+Vemos que la pérdida va reduciéndose y la precisión de los aciertos va
+mejorando de manera notable.</p>
+<p>Por otro lado, podemos ver, mediante la matriz de confusión, que la
+precisión de acierto es muy buena, tanto para cuando se trata de tumor
+maligno como el contrario. El porcentaje de acierto tanto para una clase
+como para la otra es de 539 sobre 660, lo que viene a ser una precisión
+del 81,67% de aciertos durante la etapa de evaluación con el conjunto de
+test.</p>
+</div>
+</body>
+</html>
