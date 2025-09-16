@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>81a6695d7a7846b58ae96973eb01f4f2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="ae56705c28b0d3a9" class="cell markdown">
+<p><font size="4"></p>
+<h1 id="wisconsine-breast-cancer">WISCONSINE BREAST CANCER</h1>
+<p>El dataset Wisconsin Breast Cancer (Diagnostic) es un conjunto de
+datos muy utilizado en problemas de clasificación médica. Contiene
+información sobre características de núcleos celulares extraídas de
+imágenes digitalizadas de muestras de tejido mamario. El objetivo es
+predecir si un tumor es maligno o benigno a partir de 30 características
+numéricas como la textura, compacidad, simetría o radio medio de las
+células. Cada muestra ha sido etiquetada por médicos como "M" (maligno)
+o "B" (benigno).</p>
+</div>
+<div id="initial_id" class="cell code" data-execution_count="69"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.035513Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.033053Z&quot;}"
+data-collapsed="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># importamos librerias</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split, GridSearchCV</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span></code></pre></div>
+</div>
+<div id="f56ccfa7f01102" class="cell code" data-execution_count="70"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.086797Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.076212Z&quot;}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># lectura del dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> pd.read_csv(<span class="st">&quot;dataset_wisconsine.csv&quot;</span>, sep<span class="op">=</span><span class="st">&quot;,&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>dataset.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="70">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>diagnosis</th>
+      <th>radius_mean</th>
+      <th>texture_mean</th>
+      <th>perimeter_mean</th>
+      <th>area_mean</th>
+      <th>smoothness_mean</th>
+      <th>compactness_mean</th>
+      <th>concavity_mean</th>
+      <th>concave points_mean</th>
+      <th>...</th>
+      <th>texture_worst</th>
+      <th>perimeter_worst</th>
+      <th>area_worst</th>
+      <th>smoothness_worst</th>
+      <th>compactness_worst</th>
+      <th>concavity_worst</th>
+      <th>concave points_worst</th>
+      <th>symmetry_worst</th>
+      <th>fractal_dimension_worst</th>
+      <th>Unnamed: 32</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>842302</td>
+      <td>M</td>
+      <td>17.99</td>
+      <td>10.38</td>
+      <td>122.80</td>
+      <td>1001.0</td>
+      <td>0.11840</td>
+      <td>0.27760</td>
+      <td>0.3001</td>
+      <td>0.14710</td>
+      <td>...</td>
+      <td>17.33</td>
+      <td>184.60</td>
+      <td>2019.0</td>
+      <td>0.1622</td>
+      <td>0.6656</td>
+      <td>0.7119</td>
+      <td>0.2654</td>
+      <td>0.4601</td>
+      <td>0.11890</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>842517</td>
+      <td>M</td>
+      <td>20.57</td>
+      <td>17.77</td>
+      <td>132.90</td>
+      <td>1326.0</td>
+      <td>0.08474</td>
+      <td>0.07864</td>
+      <td>0.0869</td>
+      <td>0.07017</td>
+      <td>...</td>
+      <td>23.41</td>
+      <td>158.80</td>
+      <td>1956.0</td>
+      <td>0.1238</td>
+      <td>0.1866</td>
+      <td>0.2416</td>
+      <td>0.1860</td>
+      <td>0.2750</td>
+      <td>0.08902</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>84300903</td>
+      <td>M</td>
+      <td>19.69</td>
+      <td>21.25</td>
+      <td>130.00</td>
+      <td>1203.0</td>
+      <td>0.10960</td>
+      <td>0.15990</td>
+      <td>0.1974</td>
+      <td>0.12790</td>
+      <td>...</td>
+      <td>25.53</td>
+      <td>152.50</td>
+      <td>1709.0</td>
+      <td>0.1444</td>
+      <td>0.4245</td>
+      <td>0.4504</td>
+      <td>0.2430</td>
+      <td>0.3613</td>
+      <td>0.08758</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>84348301</td>
+      <td>M</td>
+      <td>11.42</td>
+      <td>20.38</td>
+      <td>77.58</td>
+      <td>386.1</td>
+      <td>0.14250</td>
+      <td>0.28390</td>
+      <td>0.2414</td>
+      <td>0.10520</td>
+      <td>...</td>
+      <td>26.50</td>
+      <td>98.87</td>
+      <td>567.7</td>
+      <td>0.2098</td>
+      <td>0.8663</td>
+      <td>0.6869</td>
+      <td>0.2575</td>
+      <td>0.6638</td>
+      <td>0.17300</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>84358402</td>
+      <td>M</td>
+      <td>20.29</td>
+      <td>14.34</td>
+      <td>135.10</td>
+      <td>1297.0</td>
+      <td>0.10030</td>
+      <td>0.13280</td>
+      <td>0.1980</td>
+      <td>0.10430</td>
+      <td>...</td>
+      <td>16.67</td>
+      <td>152.20</td>
+      <td>1575.0</td>
+      <td>0.1374</td>
+      <td>0.2050</td>
+      <td>0.4000</td>
+      <td>0.1625</td>
+      <td>0.2364</td>
+      <td>0.07678</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 33 columns</p>
+</div>
+</div>
+</div>
+<div id="56e8af6a65c0bb5f" class="cell markdown">
+<p><font size="4"></p>
+<p>Tal y como podemos observar, cada una de las características del
+dataset se han calculado 3 valores:</p>
+<ul>
+<li>mean: media de cada atributo por imagen</li>
+<li>se: error estándar (desviación típica)</li>
+<li>worst: valor más alto observado</li>
+</ul>
+<p>Atributos base:</p>
+<ul>
+<li>radius: radio medio (distancia desde el centro al borde del
+núcleo)</li>
+<li>texture: desviación estándar de los valores de gris (relacionado con
+rugosidad de la imagen)</li>
+<li>perimeter: perímetro del núcleo</li>
+<li>area: área del núcleo</li>
+<li>smoothness: uniformidad de los contornos (valores bajos indican
+bordes irregulares)</li>
+<li>compactness: relación entre el perímetro y el área (perímetro² /
+área - 1.0)</li>
+<li>concavity: medida de la concavidad del contorno del núcleo (qué tan
+cóncavo es)</li>
+<li>concave points: número de puntos cóncavos en el contorno</li>
+<li>symmetry: simetría del núcleo</li>
+<li>fractal dimension: complejidad del contorno (valores mayores indican
+contornos más irregulares)</li>
+</ul>
+<p>Como podemos observar a continuación, el dataset consta de 569
+registros y de 11 columnas, de las cuales 10*3 equivales a las entradas,
+1 (diagnosis) que equivale a la solución y, 2 columnas que corresponden
+al id y una columna que se crea con valores nulos debido a un error del
+dataset. Estas dos últimas, las eliminaremos ya que no se relacionan con
+el dataset.</p>
+</div>
+<div id="244b4f95453283bc" class="cell code" data-execution_count="71"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.117336Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.115096Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dimensiones del dataset</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dataset.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+<pre><code>(569, 33)</code></pre>
+</div>
+</div>
+<div id="e5ad714936727754" class="cell code" data-execution_count="72"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.143239Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.140622Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># eliminamos columna &quot;unname&quot; y &quot;id&quot;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dataset.drop(columns<span class="op">=</span>[<span class="st">&quot;id&quot;</span>, <span class="st">&quot;Unnamed: 32&quot;</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dataset.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="72">
+<pre><code>(569, 31)</code></pre>
+</div>
+</div>
+<div id="7a96e8f46d7d22a7" class="cell markdown">
+<p><font size="4"></p>
+<h1 id="análisis-exploratorio-de-datos">Análisis Exploratorio de
+Datos</h1>
+<p>Primeramente, vamos a entender de que va el dataset, como se
+distribuyen los datos, como están repartidos los valores de cada
+variables... para ello, realizaremos un análisis exploratorio de los
+datos (EDA), con el que entenderemos las variables y los valores que
+pueden adquirir estas.</p>
+<p>Primeramente, vemos con la funcion info() cada una de las variables y
+el tipo que son. Como se puede apreciar, todas las variables que vamos a
+usar son de tipo float, excepto la variable objetivo, que es la variable
+resultado, que es de tipo string.</p>
+<p>Más adelante, como se puede observar, obtenemos la cantidad de
+valores nulos por cada una de las columnas del dataset y obtenemos un
+breve resumen de cada columna en forma de estadísticos (media,
+desviacion, maximo, minimos...)</p>
+</div>
+<div id="12047a9e2558ec63" class="cell code" data-execution_count="73"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.211200Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.207717Z&quot;}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tipos de variables</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>dataset.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 31 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   diagnosis                569 non-null    object 
+ 1   radius_mean              569 non-null    float64
+ 2   texture_mean             569 non-null    float64
+ 3   perimeter_mean           569 non-null    float64
+ 4   area_mean                569 non-null    float64
+ 5   smoothness_mean          569 non-null    float64
+ 6   compactness_mean         569 non-null    float64
+ 7   concavity_mean           569 non-null    float64
+ 8   concave points_mean      569 non-null    float64
+ 9   symmetry_mean            569 non-null    float64
+ 10  fractal_dimension_mean   569 non-null    float64
+ 11  radius_se                569 non-null    float64
+ 12  texture_se               569 non-null    float64
+ 13  perimeter_se             569 non-null    float64
+ 14  area_se                  569 non-null    float64
+ 15  smoothness_se            569 non-null    float64
+ 16  compactness_se           569 non-null    float64
+ 17  concavity_se             569 non-null    float64
+ 18  concave points_se        569 non-null    float64
+ 19  symmetry_se              569 non-null    float64
+ 20  fractal_dimension_se     569 non-null    float64
+ 21  radius_worst             569 non-null    float64
+ 22  texture_worst            569 non-null    float64
+ 23  perimeter_worst          569 non-null    float64
+ 24  area_worst               569 non-null    float64
+ 25  smoothness_worst         569 non-null    float64
+ 26  compactness_worst        569 non-null    float64
+ 27  concavity_worst          569 non-null    float64
+ 28  concave points_worst     569 non-null    float64
+ 29  symmetry_worst           569 non-null    float64
+ 30  fractal_dimension_worst  569 non-null    float64
+dtypes: float64(30), object(1)
+memory usage: 137.9+ KB
+</code></pre>
+</div>
+</div>
+<div id="8da04ab1637ce1d2" class="cell code" data-execution_count="74"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.231995Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.228744Z&quot;}">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># valores nulos</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>dataset.isnull().<span class="bu">sum</span>().sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="74">
+<pre><code>diagnosis                  0
+compactness_se             0
+symmetry_worst             0
+concave points_worst       0
+concavity_worst            0
+compactness_worst          0
+smoothness_worst           0
+area_worst                 0
+perimeter_worst            0
+texture_worst              0
+radius_worst               0
+fractal_dimension_se       0
+symmetry_se                0
+concave points_se          0
+concavity_se               0
+smoothness_se              0
+radius_mean                0
+area_se                    0
+perimeter_se               0
+texture_se                 0
+radius_se                  0
+fractal_dimension_mean     0
+symmetry_mean              0
+concave points_mean        0
+concavity_mean             0
+compactness_mean           0
+smoothness_mean            0
+area_mean                  0
+perimeter_mean             0
+texture_mean               0
+fractal_dimension_worst    0
+dtype: int64</code></pre>
+</div>
+</div>
+<div id="17319ac74feef061" class="cell code" data-execution_count="75"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.272006Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.257045Z&quot;}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># resumen de las columnas</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>dataset.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="75">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>radius_mean</th>
+      <th>texture_mean</th>
+      <th>perimeter_mean</th>
+      <th>area_mean</th>
+      <th>smoothness_mean</th>
+      <th>compactness_mean</th>
+      <th>concavity_mean</th>
+      <th>concave points_mean</th>
+      <th>symmetry_mean</th>
+      <th>fractal_dimension_mean</th>
+      <th>...</th>
+      <th>radius_worst</th>
+      <th>texture_worst</th>
+      <th>perimeter_worst</th>
+      <th>area_worst</th>
+      <th>smoothness_worst</th>
+      <th>compactness_worst</th>
+      <th>concavity_worst</th>
+      <th>concave points_worst</th>
+      <th>symmetry_worst</th>
+      <th>fractal_dimension_worst</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>...</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+      <td>569.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>14.127292</td>
+      <td>19.289649</td>
+      <td>91.969033</td>
+      <td>654.889104</td>
+      <td>0.096360</td>
+      <td>0.104341</td>
+      <td>0.088799</td>
+      <td>0.048919</td>
+      <td>0.181162</td>
+      <td>0.062798</td>
+      <td>...</td>
+      <td>16.269190</td>
+      <td>25.677223</td>
+      <td>107.261213</td>
+      <td>880.583128</td>
+      <td>0.132369</td>
+      <td>0.254265</td>
+      <td>0.272188</td>
+      <td>0.114606</td>
+      <td>0.290076</td>
+      <td>0.083946</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>3.524049</td>
+      <td>4.301036</td>
+      <td>24.298981</td>
+      <td>351.914129</td>
+      <td>0.014064</td>
+      <td>0.052813</td>
+      <td>0.079720</td>
+      <td>0.038803</td>
+      <td>0.027414</td>
+      <td>0.007060</td>
+      <td>...</td>
+      <td>4.833242</td>
+      <td>6.146258</td>
+      <td>33.602542</td>
+      <td>569.356993</td>
+      <td>0.022832</td>
+      <td>0.157336</td>
+      <td>0.208624</td>
+      <td>0.065732</td>
+      <td>0.061867</td>
+      <td>0.018061</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>6.981000</td>
+      <td>9.710000</td>
+      <td>43.790000</td>
+      <td>143.500000</td>
+      <td>0.052630</td>
+      <td>0.019380</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.106000</td>
+      <td>0.049960</td>
+      <td>...</td>
+      <td>7.930000</td>
+      <td>12.020000</td>
+      <td>50.410000</td>
+      <td>185.200000</td>
+      <td>0.071170</td>
+      <td>0.027290</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.156500</td>
+      <td>0.055040</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>11.700000</td>
+      <td>16.170000</td>
+      <td>75.170000</td>
+      <td>420.300000</td>
+      <td>0.086370</td>
+      <td>0.064920</td>
+      <td>0.029560</td>
+      <td>0.020310</td>
+      <td>0.161900</td>
+      <td>0.057700</td>
+      <td>...</td>
+      <td>13.010000</td>
+      <td>21.080000</td>
+      <td>84.110000</td>
+      <td>515.300000</td>
+      <td>0.116600</td>
+      <td>0.147200</td>
+      <td>0.114500</td>
+      <td>0.064930</td>
+      <td>0.250400</td>
+      <td>0.071460</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>13.370000</td>
+      <td>18.840000</td>
+      <td>86.240000</td>
+      <td>551.100000</td>
+      <td>0.095870</td>
+      <td>0.092630</td>
+      <td>0.061540</td>
+      <td>0.033500</td>
+      <td>0.179200</td>
+      <td>0.061540</td>
+      <td>...</td>
+      <td>14.970000</td>
+      <td>25.410000</td>
+      <td>97.660000</td>
+      <td>686.500000</td>
+      <td>0.131300</td>
+      <td>0.211900</td>
+      <td>0.226700</td>
+      <td>0.099930</td>
+      <td>0.282200</td>
+      <td>0.080040</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>15.780000</td>
+      <td>21.800000</td>
+      <td>104.100000</td>
+      <td>782.700000</td>
+      <td>0.105300</td>
+      <td>0.130400</td>
+      <td>0.130700</td>
+      <td>0.074000</td>
+      <td>0.195700</td>
+      <td>0.066120</td>
+      <td>...</td>
+      <td>18.790000</td>
+      <td>29.720000</td>
+      <td>125.400000</td>
+      <td>1084.000000</td>
+      <td>0.146000</td>
+      <td>0.339100</td>
+      <td>0.382900</td>
+      <td>0.161400</td>
+      <td>0.317900</td>
+      <td>0.092080</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>28.110000</td>
+      <td>39.280000</td>
+      <td>188.500000</td>
+      <td>2501.000000</td>
+      <td>0.163400</td>
+      <td>0.345400</td>
+      <td>0.426800</td>
+      <td>0.201200</td>
+      <td>0.304000</td>
+      <td>0.097440</td>
+      <td>...</td>
+      <td>36.040000</td>
+      <td>49.540000</td>
+      <td>251.200000</td>
+      <td>4254.000000</td>
+      <td>0.222600</td>
+      <td>1.058000</td>
+      <td>1.252000</td>
+      <td>0.291000</td>
+      <td>0.663800</td>
+      <td>0.207500</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 30 columns</p>
+</div>
+</div>
+</div>
+<div id="3dbe2cc606deb8b" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez hemos obtenido una pequeña información sobre el dataset a
+modo general, procedemos a analizar las columnas del dataset. Primero,
+vamos a analizar la columna de la variable resultado (diagnosis). Tal y
+como se aprecia en el gráfico, los valores de las variables están
+equilibradas, es decir, la muestra no está desequilibrado, lo que nos
+hubiera podido conducir a problemas en la predicción de la clase
+minoritaria. Tras realizar esto, procedemos a mappear la solución, en
+donde, asignaremos valores 0 y 1 a las clases de la variable
+objetivo.</p>
+</div>
+<div id="1dc231ccdfd76502" class="cell code" data-execution_count="76"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.378022Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.336187Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contamos los valores únicos de la columna &#39;diagnosis&#39;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>conteo <span class="op">=</span> dataset[<span class="st">&quot;diagnosis&quot;</span>].value_counts()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos el gráfico de barras</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>conteo.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Añadimos títulos y etiquetas</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribución de diagnósticos&quot;</span>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Tipo de diagnóstico&quot;</span>)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Cantidad de muestras&quot;</span>)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostramos el gráfico</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostramos cantidades</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>dataset[<span class="st">&quot;diagnosis&quot;</span>]<span class="sc">.</span>value_counts()<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/b8ae0702adc901b699190c92374872fade9dfe37.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>diagnosis
+B    357
+M    212
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="cce4574659fb5d6c" class="cell code" data-execution_count="77"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:12.421700Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.419064Z&quot;}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>diagnosis_map <span class="op">=</span> {</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;B&quot;</span> : <span class="dv">1</span>,</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;M&quot;</span> : <span class="dv">0</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>dataset[<span class="st">&quot;diagnosis&quot;</span>] <span class="op">=</span> dataset[<span class="st">&quot;diagnosis&quot;</span>].<span class="bu">map</span>(diagnosis_map)</span></code></pre></div>
+</div>
+<div id="5e587f467830b3e2" class="cell markdown">
+<p><font size="4"></p>
+<h4 id="variables-cuantitativas">Variables Cuantitativas</h4>
+<p>Una vez hemos analizado la variable objetivo, la columna resultados,
+vamos a analizar las columnas cuantitativas, es decir, todas las
+variables numéricas. Para ello, vamos a ver, como se distribuyen sus
+valores por la gráfica. Como se puede apreciar a continuación, la gran
+mayoría de los datos de cada una de las variables sigue una distribución
+normal. Esto se comprueba ya que, hay algoritmos que funcionan muy bien
+y otros que funciónan muy mal con una distribución específica de los
+datos.</p>
+</div>
+<div id="8ee73576ffa035e4" class="cell code" data-execution_count="78"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:15.740782Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:12.441187Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>lista_columnas <span class="op">=</span> dataset.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>]).columns</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>colores <span class="op">=</span> [<span class="st">&#39;red&#39;</span>, <span class="st">&#39;blue&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;purple&#39;</span>, <span class="st">&#39;cyan&#39;</span>, <span class="st">&#39;magenta&#39;</span>, <span class="st">&#39;brown&#39;</span>, <span class="st">&#39;olive&#39;</span>, <span class="st">&#39;pink&#39;</span>]</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, columna <span class="kw">in</span> <span class="bu">enumerate</span>(lista_columnas):</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">3</span>))</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    color <span class="op">=</span> colores[i <span class="op">%</span> <span class="bu">len</span>(colores)]  <span class="co"># Para evitar errores si hay más columnas que colore</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    sns.histplot(dataset[columna], kde<span class="op">=</span><span class="va">True</span>, bins<span class="op">=</span><span class="dv">30</span>, color<span class="op">=</span> color)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Distribución de </span><span class="sc">{</span>columna<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(columna)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Frecuencia&#39;</span>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/50e7383f2ee36fad47286f9c293da4f081bac973.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/a7280e5ffc6bb9fb2199bd051218b84c19e0a298.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/ac94f270acdc14f2a14960d765eb9e7cb4cbabfc.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/fcf4d29f30d605d4b3a102b07f6a3ff2723949ce.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/cdcfdc865f16bd3bebd0ba114b4151975a2187a5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/271b8e4504f5b04355c37a42e7dbb42e58d3a114.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/868ebdedb17e5614b0f6ccf24feff711fe715e1a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/5c937b02829e84dfa7d330819f7b9f94186991a8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/85a1b6ce654b8a6336261276c5ff957e91b99d74.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/ab74680e54d6f7d53c47f68f31066a43240f3258.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/e618708ea50f646062c335d4a22c95c00826658a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/27a8f68ccd17a309c58e01f7d5277a4f6fa1cefd.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/d977826cac7ffab022857602d4236cb400082dfd.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/bc8256f0b5d995085a6ff31756969ddcfb5a5d7b.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/60a29ad067a63f132aa60ca36c075b4ccd67f437.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/ca4a7b67f37e986f8964fc3691bd20d3a471cfbb.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/d8912f7ffcce4d8d40415f44c6692b58f7eef5b5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/38c76e59df6d32c493415c45a1c1af264db0afe4.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/17f45ad5f708f300e77a767ad8c1f8733310e4c9.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/43bae22802776564a883d7ea3085758afac6de90.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/9ba987f54115669fa23b2569d9e0dd422b566414.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/18e460a5039600f5df921f0c9b3d8cd85d078c50.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/b3ea3f0ea1462268c393c1f91d75e497c88c7489.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/eb3ad6e735f62d804fe7b5e09f258985b832ac7a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/539fa51230c0ef81bafddf47b31a63392f8cb74e.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/7ddaae3bf9c22c643ceb883a88474365c1d4f499.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/ea6f5ead8b23d42dc5fd56c956716f118fa77aa8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/ff58e7ee165f922e1e690ce55ace1b8692bc6f2a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/900a91d4b9a9dcc52a7931f153bc705174ec5a2b.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/7fc65b85b533d52d9549454a70ce5ac54a6b8445.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/2b1ece6511a6ef56717e11aee8cedcbfaabfc6c3.png" /></p>
+</div>
+</div>
+<div id="2508970cef059e48" class="cell markdown">
+<p><font size="4"></p>
+<p>Después, procedemos a caclular la relación entre las variables, es
+decir, la correlación, a través de un mapa de calor que representará la
+matriz de correlación. Para ello, seguiemos el siguiente criterio
+mostrado en la siguiente tabla:</p>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 26%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de correlación</th>
+<th>Modelos lineales</th>
+<th>Árboles / Random Forest / XGBoost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alta correlación entre predictores</td>
+<td>Eliminar, regularizar o usar PCA</td>
+<td>No crítico, pero puede simplificar el modelo</td>
+</tr>
+<tr class="even">
+<td>Baja correlación con variable objetivo</td>
+<td>Eliminar</td>
+<td>Analizar más a fondo, puede aportar valor no lineal</td>
+</tr>
+<tr class="odd">
+<td>Moderada-alta correlación con objetivo</td>
+<td>Mantener</td>
+<td>Mantener</td>
+</tr>
+</tbody>
+</table>
+<p>Acto seguido, procedemos a analizar la distribución de los datos de
+cada variable predictora con respecto a la variable objetivo.</p>
+</div>
+<div id="376987b386c634fb" class="cell code" data-execution_count="79"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:16.287971Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:15.789779Z&quot;}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la matriz de correlación</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>dataset_num <span class="op">=</span> dataset.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>])</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> dataset_num.corr()</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(corr_matrix)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">16</span>))</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de correlación&#39;</span>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                         diagnosis  radius_mean  texture_mean  perimeter_mean  \
+diagnosis                 1.000000    -0.730029     -0.415185       -0.742636   
+radius_mean              -0.730029     1.000000      0.323782        0.997855   
+texture_mean             -0.415185     0.323782      1.000000        0.329533   
+perimeter_mean           -0.742636     0.997855      0.329533        1.000000   
+area_mean                -0.708984     0.987357      0.321086        0.986507   
+smoothness_mean          -0.358560     0.170581     -0.023389        0.207278   
+compactness_mean         -0.596534     0.506124      0.236702        0.556936   
+concavity_mean           -0.696360     0.676764      0.302418        0.716136   
+concave points_mean      -0.776614     0.822529      0.293464        0.850977   
+symmetry_mean            -0.330499     0.147741      0.071401        0.183027   
+fractal_dimension_mean    0.012838    -0.311631     -0.076437       -0.261477   
+radius_se                -0.567134     0.679090      0.275869        0.691765   
+texture_se                0.008303    -0.097317      0.386358       -0.086761   
+perimeter_se             -0.556141     0.674172      0.281673        0.693135   
+area_se                  -0.548236     0.735864      0.259845        0.744983   
+smoothness_se             0.067016    -0.222600      0.006614       -0.202694   
+compactness_se           -0.292999     0.206000      0.191975        0.250744   
+concavity_se             -0.253730     0.194204      0.143293        0.228082   
+concave points_se        -0.408042     0.376169      0.163851        0.407217   
+symmetry_se               0.006522    -0.104321      0.009127       -0.081629   
+fractal_dimension_se     -0.077972    -0.042641      0.054458       -0.005523   
+radius_worst             -0.776454     0.969539      0.352573        0.969476   
+texture_worst            -0.456903     0.297008      0.912045        0.303038   
+perimeter_worst          -0.782914     0.965137      0.358040        0.970387   
+area_worst               -0.733825     0.941082      0.343546        0.941550   
+smoothness_worst         -0.421465     0.119616      0.077503        0.150549   
+compactness_worst        -0.590998     0.413463      0.277830        0.455774   
+concavity_worst          -0.659610     0.526911      0.301025        0.563879   
+concave points_worst     -0.793566     0.744214      0.295316        0.771241   
+symmetry_worst           -0.416294     0.163953      0.105008        0.189115   
+fractal_dimension_worst  -0.323872     0.007066      0.119205        0.051019   
+
+                         area_mean  smoothness_mean  compactness_mean  \
+diagnosis                -0.708984        -0.358560         -0.596534   
+radius_mean               0.987357         0.170581          0.506124   
+texture_mean              0.321086        -0.023389          0.236702   
+perimeter_mean            0.986507         0.207278          0.556936   
+area_mean                 1.000000         0.177028          0.498502   
+smoothness_mean           0.177028         1.000000          0.659123   
+compactness_mean          0.498502         0.659123          1.000000   
+concavity_mean            0.685983         0.521984          0.883121   
+concave points_mean       0.823269         0.553695          0.831135   
+symmetry_mean             0.151293         0.557775          0.602641   
+fractal_dimension_mean   -0.283110         0.584792          0.565369   
+radius_se                 0.732562         0.301467          0.497473   
+texture_se               -0.066280         0.068406          0.046205   
+perimeter_se              0.726628         0.296092          0.548905   
+area_se                   0.800086         0.246552          0.455653   
+smoothness_se            -0.166777         0.332375          0.135299   
+compactness_se            0.212583         0.318943          0.738722   
+concavity_se              0.207660         0.248396          0.570517   
+concave points_se         0.372320         0.380676          0.642262   
+symmetry_se              -0.072497         0.200774          0.229977   
+fractal_dimension_se     -0.019887         0.283607          0.507318   
+radius_worst              0.962746         0.213120          0.535315   
+texture_worst             0.287489         0.036072          0.248133   
+perimeter_worst           0.959120         0.238853          0.590210   
+area_worst                0.959213         0.206718          0.509604   
+smoothness_worst          0.123523         0.805324          0.565541   
+compactness_worst         0.390410         0.472468          0.865809   
+concavity_worst           0.512606         0.434926          0.816275   
+concave points_worst      0.722017         0.503053          0.815573   
+symmetry_worst            0.143570         0.394309          0.510223   
+fractal_dimension_worst   0.003738         0.499316          0.687382   
+
+                         concavity_mean  concave points_mean  symmetry_mean  \
+diagnosis                     -0.696360            -0.776614      -0.330499   
+radius_mean                    0.676764             0.822529       0.147741   
+texture_mean                   0.302418             0.293464       0.071401   
+perimeter_mean                 0.716136             0.850977       0.183027   
+area_mean                      0.685983             0.823269       0.151293   
+smoothness_mean                0.521984             0.553695       0.557775   
+compactness_mean               0.883121             0.831135       0.602641   
+concavity_mean                 1.000000             0.921391       0.500667   
+concave points_mean            0.921391             1.000000       0.462497   
+symmetry_mean                  0.500667             0.462497       1.000000   
+fractal_dimension_mean         0.336783             0.166917       0.479921   
+radius_se                      0.631925             0.698050       0.303379   
+texture_se                     0.076218             0.021480       0.128053   
+perimeter_se                   0.660391             0.710650       0.313893   
+area_se                        0.617427             0.690299       0.223970   
+smoothness_se                  0.098564             0.027653       0.187321   
+compactness_se                 0.670279             0.490424       0.421659   
+concavity_se                   0.691270             0.439167       0.342627   
+concave points_se              0.683260             0.615634       0.393298   
+symmetry_se                    0.178009             0.095351       0.449137   
+fractal_dimension_se           0.449301             0.257584       0.331786   
+radius_worst                   0.688236             0.830318       0.185728   
+texture_worst                  0.299879             0.292752       0.090651   
+perimeter_worst                0.729565             0.855923       0.219169   
+area_worst                     0.675987             0.809630       0.177193   
+smoothness_worst               0.448822             0.452753       0.426675   
+compactness_worst              0.754968             0.667454       0.473200   
+concavity_worst                0.884103             0.752399       0.433721   
+concave points_worst           0.861323             0.910155       0.430297   
+symmetry_worst                 0.409464             0.375744       0.699826   
+fractal_dimension_worst        0.514930             0.368661       0.438413   
+
+                         ...  radius_worst  texture_worst  perimeter_worst  \
+diagnosis                ...     -0.776454      -0.456903        -0.782914   
+radius_mean              ...      0.969539       0.297008         0.965137   
+texture_mean             ...      0.352573       0.912045         0.358040   
+perimeter_mean           ...      0.969476       0.303038         0.970387   
+area_mean                ...      0.962746       0.287489         0.959120   
+smoothness_mean          ...      0.213120       0.036072         0.238853   
+compactness_mean         ...      0.535315       0.248133         0.590210   
+concavity_mean           ...      0.688236       0.299879         0.729565   
+concave points_mean      ...      0.830318       0.292752         0.855923   
+symmetry_mean            ...      0.185728       0.090651         0.219169   
+fractal_dimension_mean   ...     -0.253691      -0.051269        -0.205151   
+radius_se                ...      0.715065       0.194799         0.719684   
+texture_se               ...     -0.111690       0.409003        -0.102242   
+perimeter_se             ...      0.697201       0.200371         0.721031   
+area_se                  ...      0.757373       0.196497         0.761213   
+smoothness_se            ...     -0.230691      -0.074743        -0.217304   
+compactness_se           ...      0.204607       0.143003         0.260516   
+concavity_se             ...      0.186904       0.100241         0.226680   
+concave points_se        ...      0.358127       0.086741         0.394999   
+symmetry_se              ...     -0.128121      -0.077473        -0.103753   
+fractal_dimension_se     ...     -0.037488      -0.003195        -0.001000   
+radius_worst             ...      1.000000       0.359921         0.993708   
+texture_worst            ...      0.359921       1.000000         0.365098   
+perimeter_worst          ...      0.993708       0.365098         1.000000   
+area_worst               ...      0.984015       0.345842         0.977578   
+smoothness_worst         ...      0.216574       0.225429         0.236775   
+compactness_worst        ...      0.475820       0.360832         0.529408   
+concavity_worst          ...      0.573975       0.368366         0.618344   
+concave points_worst     ...      0.787424       0.359755         0.816322   
+symmetry_worst           ...      0.243529       0.233027         0.269493   
+fractal_dimension_worst  ...      0.093492       0.219122         0.138957   
+
+                         area_worst  smoothness_worst  compactness_worst  \
+diagnosis                 -0.733825         -0.421465          -0.590998   
+radius_mean                0.941082          0.119616           0.413463   
+texture_mean               0.343546          0.077503           0.277830   
+perimeter_mean             0.941550          0.150549           0.455774   
+area_mean                  0.959213          0.123523           0.390410   
+smoothness_mean            0.206718          0.805324           0.472468   
+compactness_mean           0.509604          0.565541           0.865809   
+concavity_mean             0.675987          0.448822           0.754968   
+concave points_mean        0.809630          0.452753           0.667454   
+symmetry_mean              0.177193          0.426675           0.473200   
+fractal_dimension_mean    -0.231854          0.504942           0.458798   
+radius_se                  0.751548          0.141919           0.287103   
+texture_se                -0.083195         -0.073658          -0.092439   
+perimeter_se               0.730713          0.130054           0.341919   
+area_se                    0.811408          0.125389           0.283257   
+smoothness_se             -0.182195          0.314457          -0.055558   
+compactness_se             0.199371          0.227394           0.678780   
+concavity_se               0.188353          0.168481           0.484858   
+concave points_se          0.342271          0.215351           0.452888   
+symmetry_se               -0.110343         -0.012662           0.060255   
+fractal_dimension_se      -0.022736          0.170568           0.390159   
+radius_worst               0.984015          0.216574           0.475820   
+texture_worst              0.345842          0.225429           0.360832   
+perimeter_worst            0.977578          0.236775           0.529408   
+area_worst                 1.000000          0.209145           0.438296   
+smoothness_worst           0.209145          1.000000           0.568187   
+compactness_worst          0.438296          0.568187           1.000000   
+concavity_worst            0.543331          0.518523           0.892261   
+concave points_worst       0.747419          0.547691           0.801080   
+symmetry_worst             0.209146          0.493838           0.614441   
+fractal_dimension_worst    0.079647          0.617624           0.810455   
+
+                         concavity_worst  concave points_worst  \
+diagnosis                      -0.659610             -0.793566   
+radius_mean                     0.526911              0.744214   
+texture_mean                    0.301025              0.295316   
+perimeter_mean                  0.563879              0.771241   
+area_mean                       0.512606              0.722017   
+smoothness_mean                 0.434926              0.503053   
+compactness_mean                0.816275              0.815573   
+concavity_mean                  0.884103              0.861323   
+concave points_mean             0.752399              0.910155   
+symmetry_mean                   0.433721              0.430297   
+fractal_dimension_mean          0.346234              0.175325   
+radius_se                       0.380585              0.531062   
+texture_se                     -0.068956             -0.119638   
+perimeter_se                    0.418899              0.554897   
+area_se                         0.385100              0.538166   
+smoothness_se                  -0.058298             -0.102007   
+compactness_se                  0.639147              0.483208   
+concavity_se                    0.662564              0.440472   
+concave points_se               0.549592              0.602450   
+symmetry_se                     0.037119             -0.030413   
+fractal_dimension_se            0.379975              0.215204   
+radius_worst                    0.573975              0.787424   
+texture_worst                   0.368366              0.359755   
+perimeter_worst                 0.618344              0.816322   
+area_worst                      0.543331              0.747419   
+smoothness_worst                0.518523              0.547691   
+compactness_worst               0.892261              0.801080   
+concavity_worst                 1.000000              0.855434   
+concave points_worst            0.855434              1.000000   
+symmetry_worst                  0.532520              0.502528   
+fractal_dimension_worst         0.686511              0.511114   
+
+                         symmetry_worst  fractal_dimension_worst  
+diagnosis                     -0.416294                -0.323872  
+radius_mean                    0.163953                 0.007066  
+texture_mean                   0.105008                 0.119205  
+perimeter_mean                 0.189115                 0.051019  
+area_mean                      0.143570                 0.003738  
+smoothness_mean                0.394309                 0.499316  
+compactness_mean               0.510223                 0.687382  
+concavity_mean                 0.409464                 0.514930  
+concave points_mean            0.375744                 0.368661  
+symmetry_mean                  0.699826                 0.438413  
+fractal_dimension_mean         0.334019                 0.767297  
+radius_se                      0.094543                 0.049559  
+texture_se                    -0.128215                -0.045655  
+perimeter_se                   0.109930                 0.085433  
+area_se                        0.074126                 0.017539  
+smoothness_se                 -0.107342                 0.101480  
+compactness_se                 0.277878                 0.590973  
+concavity_se                   0.197788                 0.439329  
+concave points_se              0.143116                 0.310655  
+symmetry_se                    0.389402                 0.078079  
+fractal_dimension_se           0.111094                 0.591328  
+radius_worst                   0.243529                 0.093492  
+texture_worst                  0.233027                 0.219122  
+perimeter_worst                0.269493                 0.138957  
+area_worst                     0.209146                 0.079647  
+smoothness_worst               0.493838                 0.617624  
+compactness_worst              0.614441                 0.810455  
+concavity_worst                0.532520                 0.686511  
+concave points_worst           0.502528                 0.511114  
+symmetry_worst                 1.000000                 0.537848  
+fractal_dimension_worst        0.537848                 1.000000  
+
+[31 rows x 31 columns]
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/a7b8ba18e4c69c6a605a70efa7a8538a3fc9c9e9.png" /></p>
+</div>
+</div>
+<div id="d52e5bac0a90f75d" class="cell markdown">
+<p><font size="4"></p>
+<p>Acto seguido, procedemos a analizar la distribución de los datos de
+cada variable predictora con respecto a la variable objetivo.</p>
+</div>
+<div id="ef9b98f8fd1b65c9" class="cell code" data-execution_count="80"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:17.730817Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:16.299643Z&quot;}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Selección de columnas numéricas</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>columnas_float <span class="op">=</span> dataset.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;float64&#39;</span>]).columns</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Configuración de subplots</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">10</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">60</span>))</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Graficamos cada boxplot</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(columnas_float[:<span class="bu">len</span>(axes)]):  <span class="co"># Evita index out of range</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span><span class="st">&#39;diagnosis&#39;</span>,</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>colum,</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>        data<span class="op">=</span>dataset,</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>        ax<span class="op">=</span>axes[i]</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>    axes[i].set_title(<span class="ss">f&#39;Distribución de </span><span class="sc">{</span>colum<span class="sc">}</span><span class="ss"> según diagnóstico&#39;</span>, fontsize<span class="op">=</span><span class="dv">8</span>)</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>    axes[i].set_xlabel(<span class="st">&#39;Diagnóstico (0 = Maligno, 1 = Benigno)&#39;</span>, fontsize<span class="op">=</span><span class="dv">7</span>)</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>    axes[i].set_ylabel(colum, fontsize<span class="op">=</span><span class="dv">7</span>)</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>    axes[i].tick_params(labelsize<span class="op">=</span><span class="dv">6</span>)</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Eliminamos ejes vacíos si hay menos columnas que subplots</span></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(columnas_float), <span class="bu">len</span>(axes)):</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>    fig.delaxes(axes[i])</span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.92</span>)</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Distribución de variables numéricas según diagnóstico (Boxplots)&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>, fontweight<span class="op">=</span><span class="st">&quot;bold&quot;</span>)</span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/d563a4756d905c3f46579b937b7d2447b813639c.png" /></p>
+</div>
+</div>
+<div id="b9a04a1fbf8e1bf4" class="cell markdown">
+<p><font size="4"></p>
+<p>Como la matriz de correlación muestra que muchas variables están
+correlacionadas entre sí, es por ello, que solo nos vamos a quedar con
+un único tipo de dato, es decir, por cada variables tenemos la media, el
+error y su valor más alto, pues vamos a quedarnos sólamente con la media
+y vamos a realizar un modelo únicamente con la media de cada valor. De
+esta manera, vamos a reducir la dimensión del dataset, lo cual puede ser
+bueno para nuestro modelo.</p>
+</div>
+<div id="2803f48a6cc28a04" class="cell code" data-execution_count="81"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:17.750169Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:17.746433Z&quot;}">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>columnas <span class="op">=</span> [<span class="st">&quot;diagnosis&quot;</span>]</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> columna <span class="kw">in</span> dataset.columns:</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>  <span class="st">&quot;mean&quot;</span> <span class="kw">in</span> columna:</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        columnas.append(columna)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>dataset_reducido <span class="op">=</span> dataset[columnas]</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>dataset_reducido.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 569 entries, 0 to 568
+Data columns (total 11 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   diagnosis               569 non-null    int64  
+ 1   radius_mean             569 non-null    float64
+ 2   texture_mean            569 non-null    float64
+ 3   perimeter_mean          569 non-null    float64
+ 4   area_mean               569 non-null    float64
+ 5   smoothness_mean         569 non-null    float64
+ 6   compactness_mean        569 non-null    float64
+ 7   concavity_mean          569 non-null    float64
+ 8   concave points_mean     569 non-null    float64
+ 9   symmetry_mean           569 non-null    float64
+ 10  fractal_dimension_mean  569 non-null    float64
+dtypes: float64(10), int64(1)
+memory usage: 49.0 KB
+</code></pre>
+</div>
+</div>
+<div id="9d31cb512e394b9" class="cell code" data-execution_count="82"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:17.900247Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:17.763159Z&quot;}">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la matriz de correlación</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>dataset_num <span class="op">=</span> dataset_reducido.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>])</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> dataset_num.corr()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(corr_matrix)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de correlación&#39;</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                        diagnosis  radius_mean  texture_mean  perimeter_mean  \
+diagnosis                1.000000    -0.730029     -0.415185       -0.742636   
+radius_mean             -0.730029     1.000000      0.323782        0.997855   
+texture_mean            -0.415185     0.323782      1.000000        0.329533   
+perimeter_mean          -0.742636     0.997855      0.329533        1.000000   
+area_mean               -0.708984     0.987357      0.321086        0.986507   
+smoothness_mean         -0.358560     0.170581     -0.023389        0.207278   
+compactness_mean        -0.596534     0.506124      0.236702        0.556936   
+concavity_mean          -0.696360     0.676764      0.302418        0.716136   
+concave points_mean     -0.776614     0.822529      0.293464        0.850977   
+symmetry_mean           -0.330499     0.147741      0.071401        0.183027   
+fractal_dimension_mean   0.012838    -0.311631     -0.076437       -0.261477   
+
+                        area_mean  smoothness_mean  compactness_mean  \
+diagnosis               -0.708984        -0.358560         -0.596534   
+radius_mean              0.987357         0.170581          0.506124   
+texture_mean             0.321086        -0.023389          0.236702   
+perimeter_mean           0.986507         0.207278          0.556936   
+area_mean                1.000000         0.177028          0.498502   
+smoothness_mean          0.177028         1.000000          0.659123   
+compactness_mean         0.498502         0.659123          1.000000   
+concavity_mean           0.685983         0.521984          0.883121   
+concave points_mean      0.823269         0.553695          0.831135   
+symmetry_mean            0.151293         0.557775          0.602641   
+fractal_dimension_mean  -0.283110         0.584792          0.565369   
+
+                        concavity_mean  concave points_mean  symmetry_mean  \
+diagnosis                    -0.696360            -0.776614      -0.330499   
+radius_mean                   0.676764             0.822529       0.147741   
+texture_mean                  0.302418             0.293464       0.071401   
+perimeter_mean                0.716136             0.850977       0.183027   
+area_mean                     0.685983             0.823269       0.151293   
+smoothness_mean               0.521984             0.553695       0.557775   
+compactness_mean              0.883121             0.831135       0.602641   
+concavity_mean                1.000000             0.921391       0.500667   
+concave points_mean           0.921391             1.000000       0.462497   
+symmetry_mean                 0.500667             0.462497       1.000000   
+fractal_dimension_mean        0.336783             0.166917       0.479921   
+
+                        fractal_dimension_mean  
+diagnosis                             0.012838  
+radius_mean                          -0.311631  
+texture_mean                         -0.076437  
+perimeter_mean                       -0.261477  
+area_mean                            -0.283110  
+smoothness_mean                       0.584792  
+compactness_mean                      0.565369  
+concavity_mean                        0.336783  
+concave points_mean                   0.166917  
+symmetry_mean                         0.479921  
+fractal_dimension_mean                1.000000  
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/9c3f7a1b120cd0c473b63dd51e8fc3c96eabf12d.png" /></p>
+</div>
+</div>
+<div id="ba7aa78483fcf46c" class="cell markdown">
+<p><font size="4"></p>
+<p>Como seguimos teniendo variables muy correlacionadas, vamos a
+proceder a eliminar más variables. Para ello, vamos a quitar las que
+tengan una correlación alta entre ellas y, además, también eliminaremos
+aquellas variables que no tengan correlación con la solución.</p>
+</div>
+<div id="2d7640252df52ff3" class="cell code" data-execution_count="83"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:17.917926Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:17.913383Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>dataset_reducido <span class="op">=</span> dataset_reducido.drop(columns<span class="op">=</span>[<span class="st">&quot;fractal_dimension_mean&quot;</span>, <span class="st">&quot;radius_mean&quot;</span>, <span class="st">&quot;perimeter_mean&quot;</span>, <span class="st">&quot;concave points_mean&quot;</span>])</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>dataset_reducido.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>diagnosis</th>
+      <th>texture_mean</th>
+      <th>area_mean</th>
+      <th>smoothness_mean</th>
+      <th>compactness_mean</th>
+      <th>concavity_mean</th>
+      <th>symmetry_mean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>10.38</td>
+      <td>1001.0</td>
+      <td>0.11840</td>
+      <td>0.27760</td>
+      <td>0.3001</td>
+      <td>0.2419</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>17.77</td>
+      <td>1326.0</td>
+      <td>0.08474</td>
+      <td>0.07864</td>
+      <td>0.0869</td>
+      <td>0.1812</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>21.25</td>
+      <td>1203.0</td>
+      <td>0.10960</td>
+      <td>0.15990</td>
+      <td>0.1974</td>
+      <td>0.2069</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>20.38</td>
+      <td>386.1</td>
+      <td>0.14250</td>
+      <td>0.28390</td>
+      <td>0.2414</td>
+      <td>0.2597</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>14.34</td>
+      <td>1297.0</td>
+      <td>0.10030</td>
+      <td>0.13280</td>
+      <td>0.1980</td>
+      <td>0.1809</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="a65ee883650ca3ff" class="cell code" data-execution_count="84"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:18.048853Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:17.945561Z&quot;}">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la matriz de correlación</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>dataset_num <span class="op">=</span> dataset_reducido.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>])</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> dataset_num.corr()</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(corr_matrix)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de correlación&#39;</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                  diagnosis  texture_mean  area_mean  smoothness_mean  \
+diagnosis          1.000000     -0.415185  -0.708984        -0.358560   
+texture_mean      -0.415185      1.000000   0.321086        -0.023389   
+area_mean         -0.708984      0.321086   1.000000         0.177028   
+smoothness_mean   -0.358560     -0.023389   0.177028         1.000000   
+compactness_mean  -0.596534      0.236702   0.498502         0.659123   
+concavity_mean    -0.696360      0.302418   0.685983         0.521984   
+symmetry_mean     -0.330499      0.071401   0.151293         0.557775   
+
+                  compactness_mean  concavity_mean  symmetry_mean  
+diagnosis                -0.596534       -0.696360      -0.330499  
+texture_mean              0.236702        0.302418       0.071401  
+area_mean                 0.498502        0.685983       0.151293  
+smoothness_mean           0.659123        0.521984       0.557775  
+compactness_mean          1.000000        0.883121       0.602641  
+concavity_mean            0.883121        1.000000       0.500667  
+symmetry_mean             0.602641        0.500667       1.000000  
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_d5e6fabe2344418790de30d64992e8a1/c64ec0b9a97f6f18cfacafe0e2b91bd22b09dcb7.png" /></p>
+</div>
+</div>
+<div id="3868362de35c03d2" class="cell markdown">
+<p><font size="4"></p>
+<h1 id="preprocesamiento">Preprocesamiento</h1>
+<p>Una vez ya hemos hecho el análisis exploratorio de los datos (EDA)
+procedemos a realizar el preprocesamiento, en donde, solo tenemos
+valores numéricos, por lo que vamos a aplicarles una normalización de
+manera que los datos estén con media 0 y desviación 1.</p>
+</div>
+<div id="803ea83153b475cd" class="cell code" data-execution_count="85"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:18.072040Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:18.065379Z&quot;}">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dividimos dataset</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> dataset_reducido.drop([<span class="st">&quot;diagnosis&quot;</span>], axis<span class="op">=</span><span class="st">&quot;columns&quot;</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dataset_reducido[<span class="st">&quot;diagnosis&quot;</span>]</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(x,y,test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>, stratify<span class="op">=</span>y)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>x_train.shape, x_test.shape, y_train.shape, y_test.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="85">
+<pre><code>((455, 6), (114, 6), (455,), (114,))</code></pre>
+</div>
+</div>
+<div id="e57729e9920ed50e" class="cell code" data-execution_count="86"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:18.083255Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:18.080320Z&quot;}">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># aplicamos StandarScaler</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> scaler.fit_transform(x_train)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> scaler.transform(x_test)</span></code></pre></div>
+</div>
+<div id="1836a6e2c84cc43d" class="cell markdown">
+<p><font size="4"></p>
+<h1 id="definimos-el-modelo">Definimos el modelo</h1>
+<p>Ya tenemos los datos preparados, ahora vamos a definir un modelo,
+para ello, vamos a crearnos varios modelos y cada uno usará un algoritmo
+diferente. De esta manera podremos coger el mejor después de ejecutarlos
+todos.</p>
+<p>En primer lugar, vamos a utilizar un algoritmo de <strong>regresión
+logística</strong>, que es un modelo estadístico y de aprendizaje
+automático utilizado para resolver problemas de <strong>clasificación
+binaria</strong>, es decir, cuando la variable objetivo solo puede tomar
+dos valores (por ejemplo, "sí" o "no", "fraude" o "no fraude"). A
+diferencia de la regresión lineal, que predice valores continuos, la
+regresión logística calcula la <strong>probabilidad</strong> de que una
+observación pertenezca a una de las clases, utilizando la
+<strong>función sigmoide</strong> para transformar la salida en un valor
+entre 0 y 1. El modelo ajusta los coeficientes de las variables
+independientes (predictoras) para encontrar la mejor frontera de
+decisión que separe las clases, y es ampliamente utilizado por su
+<strong>simplicidad, interpretabilidad</strong> y buen rendimiento en
+tareas linealmente separables.</p>
+</div>
+<div id="d6583910be745f66" class="cell code" data-execution_count="87"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:18.188692Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:18.098558Z&quot;}">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, classification_report</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Algoritmo regresion logistica</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>modelo_RL <span class="op">=</span> LogisticRegression()</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>hiperparametro_RL <span class="op">=</span> {</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;C&#39;</span>: [<span class="fl">0.01</span>, <span class="fl">0.1</span>, <span class="dv">1</span>, <span class="dv">10</span>],</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;penalty&#39;</span>: [<span class="st">&#39;l1&#39;</span>, <span class="st">&#39;l2&#39;</span>],</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;solver&#39;</span>: [<span class="st">&#39;liblinear&#39;</span>, <span class="st">&#39;saga&#39;</span>]</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el modelo</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>grid_RL <span class="op">=</span> GridSearchCV(LogisticRegression(), hiperparametro_RL, cv<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a><span class="co"># entrenamos el modelo</span></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>grid_RL.fit(x_train, y_train)</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a><span class="co"># cogemos la mejor combinacion</span></span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>best_RL <span class="op">=</span> grid_RL.best_estimator_</span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mejor combinacion: </span><span class="sc">{</span>best_RL<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a><span class="co"># prediccion conjunto test</span></span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> best_RL.predict(x_test)</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos metricas</span></span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a>matriz_RL <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy:&quot;</span>, accuracy_score(y_test, y_pred))</span>
+<span id="cb29-28"><a href="#cb29-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Matriz de confusion</span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>confusion_matrix(y_test, y_pred)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-29"><a href="#cb29-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Reporte de Clasificación:</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb29-30"><a href="#cb29-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred, target_names<span class="op">=</span>[<span class="st">&#39;Maligno&#39;</span>, <span class="st">&#39;Benigno&#39;</span>]))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mejor combinacion: LogisticRegression(C=10, penalty=&#39;l1&#39;, solver=&#39;liblinear&#39;)
+Accuracy: 0.9035087719298246
+Matriz de confusion
+ [[40  2]
+ [ 9 63]]
+
+Reporte de Clasificación:
+
+              precision    recall  f1-score   support
+
+     Maligno       0.82      0.95      0.88        42
+     Benigno       0.97      0.88      0.92        72
+
+    accuracy                           0.90       114
+   macro avg       0.89      0.91      0.90       114
+weighted avg       0.91      0.90      0.90       114
+
+</code></pre>
+</div>
+</div>
+<div id="fbc0e5d50aab1410" class="cell markdown">
+<p><font size="4"></p>
+<p>El algoritmo <strong>K-Nearest Neighbors</strong> clasifica una nueva
+observación según las clases de sus k vecinos más cercanos en el
+conjunto de entrenamiento, medidos normalmente con una métrica de
+distancia como la distancia euclidiana. Es un algoritmo no paramétrico y
+perezoso (lazy learning), lo que significa que no aprende un modelo
+durante el entrenamiento, sino que guarda todos los datos y toma
+decisiones solo en el momento de la predicción. Es muy intuitivo y
+eficaz en conjuntos de datos pequeños o con patrones bien definidos,
+pero puede volverse lento y menos preciso en datasets grandes o con
+muchas variables irrelevantes.</p>
+</div>
+<div id="2de67dde30142965" class="cell code" data-execution_count="88"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:18.211094Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:18.201779Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Definimos el modelo</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>modelo_KNN <span class="op">=</span> KNeighborsClassifier(n_neighbors<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Entrenamos el modelo con los datos</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>modelo_KNN.fit(x_train, y_train)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Predecimos el modelo con conjunto de test</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> modelo_KNN.predict(x_test)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos las metricas</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>matriz_KNN <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy:&quot;</span>, accuracy_score(y_test, y_pred))</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Matriz de confusion</span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>matriz_KNN<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Reporte de Clasificación:</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred, target_names<span class="op">=</span>[<span class="st">&#39;Maligno&#39;</span>, <span class="st">&#39;Benigno&#39;</span>]))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy: 0.8508771929824561
+Matriz de confusion
+ [[41  1]
+ [16 56]]
+
+Reporte de Clasificación:
+
+              precision    recall  f1-score   support
+
+     Maligno       0.72      0.98      0.83        42
+     Benigno       0.98      0.78      0.87        72
+
+    accuracy                           0.85       114
+   macro avg       0.85      0.88      0.85       114
+weighted avg       0.89      0.85      0.85       114
+
+</code></pre>
+</div>
+</div>
+<div id="9ea3d81b5b82d145" class="cell markdown">
+<p><font size="4"></p>
+<p>Los <strong>árboles de decisión</strong> son modelos que dividen
+recursivamente el espacio de datos en regiones basadas en reglas simples
+(por ejemplo, “¿la edad es mayor a 30?”), con el objetivo de separar las
+clases de la mejor forma posible. Cada nodo interno representa una
+condición sobre una variable, y cada rama conduce a una nueva división,
+hasta llegar a una hoja que asigna una clase. Son fáciles de
+interpretar, no requieren preprocesamiento (como escalado de variables),
+y manejan bien tanto datos numéricos como categóricos. Sin embargo,
+tienden a sobreajustarse si no se podan o se limita su profundidad.</p>
+</div>
+<div id="f00d8fd8068112b8" class="cell code" data-execution_count="90"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-25T11:13:32.184444Z&quot;,&quot;start_time&quot;:&quot;2025-06-25T11:13:30.913438Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el modelo</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>modelo_DT <span class="op">=</span> DecisionTreeClassifier()</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># hiperparametros</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;max_depth&#39;</span>: [<span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="va">None</span>],               <span class="co"># Profundidad del árbol</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;min_samples_split&#39;</span>: [<span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">10</span>],                  <span class="co"># Mínimo de muestras para dividir un nodo</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;min_samples_leaf&#39;</span>: [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">10</span>],                <span class="co"># Mínimo de muestras en una hoja</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;criterion&#39;</span>: [<span class="st">&#39;gini&#39;</span>, <span class="st">&#39;entropy&#39;</span>],                 <span class="co"># Función para medir calidad de división</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;max_features&#39;</span>: [<span class="va">None</span>, <span class="st">&#39;sqrt&#39;</span>, <span class="st">&#39;log2&#39;</span>]            <span class="co"># Número de características consideradas en cada división</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el gridsearchCV</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>grid_DT <span class="op">=</span> GridSearchCV(DecisionTreeClassifier(random_state<span class="op">=</span><span class="dv">42</span>), param_grid, cv<span class="op">=</span><span class="dv">5</span>, scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a><span class="co"># entrenamos el modelo</span></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>grid_DT.fit(x_train, y_train)</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy:&quot;</span>, grid_DT.score(x_test, y_test))</span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Best parameters: </span><span class="sc">{</span>grid_DT<span class="sc">.</span>best_params_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Hacemos la prediccion del modelo</span></span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> grid_DT.best_estimator_.predict(x_test)</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos las metricas</span></span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>matriz_DT <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy:&quot;</span>, grid_DT.score(x_test, y_test))</span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Matriz de confusion</span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>matriz_DT<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Reporte de clasificación:</span><span class="ch">\n</span><span class="sc">{</span>classification_report(y_test, y_pred, target_names<span class="op">=</span>[<span class="st">&#39;Maligno&#39;</span>, <span class="st">&#39;Benigno&#39;</span>])<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy: 0.9210526315789473
+Best parameters: {&#39;criterion&#39;: &#39;entropy&#39;, &#39;max_depth&#39;: 5, &#39;max_features&#39;: None, &#39;min_samples_leaf&#39;: 2, &#39;min_samples_split&#39;: 2}
+Accuracy: 0.9210526315789473
+Matriz de confusion
+ [[39  3]
+ [ 6 66]]
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+     Maligno       0.87      0.93      0.90        42
+     Benigno       0.96      0.92      0.94        72
+
+    accuracy                           0.92       114
+   macro avg       0.91      0.92      0.92       114
+weighted avg       0.92      0.92      0.92       114
+
+</code></pre>
+</div>
+</div>
+<div id="846d806fe2a22d20" class="cell markdown">
+<p><font size="4"></p>
+<p>Como podemos observar, estos tres algoritmos empleados muestran
+mejores resultados que la propuesta realizada en la clase.</p>
+</div>
+</body>
+</html>

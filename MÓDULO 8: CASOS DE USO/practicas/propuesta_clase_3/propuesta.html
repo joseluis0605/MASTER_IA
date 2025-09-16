@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>184da2dd0a674b7095b57157d3c4e5aa</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="8d215be17c4ab7a1" class="cell markdown">
+<p><font size="4"></p>
+<p>Genera un dataset ficticio con 500 estudiantes. Cada uno tiene:</p>
+<ul>
+<li>horas_estudio: de 0 a 20 horas por semana.</li>
+<li>asistencia: entre 50% y 100%.</li>
+<li>tipo_escuela: Pública o Privada.</li>
+<li>extraescolares: Sí o No.</li>
+<li>rendimiento: será calculado después (target).</li>
+</ul>
+<p><strong>¿Qué conseguimos con un dataset simulado?</strong></p>
+<ul>
+<li>Control total sobre las variables: puedes decidir qué influye en
+qué.</li>
+<li>Facilidad para enseñar: puedes crear relaciones claras y
+coherentes.</li>
+<li>Reproducibilidad: todos los estudiantes verán exactamente los mismos
+datos si usas set.seed().</li>
+<li>Seguridad y privacidad: no manejas datos sensibles o reales.</li>
+</ul>
+<p><strong>¿Por qué 500 estudiantes?</strong></p>
+<ul>
+<li>Es un número suficientemente grande para aplicar modelos
+estadísticos y de machine learning.</li>
+<li>No es tan grande como para que el procesamiento en Colab sea
+lento.</li>
+</ul>
+<p><strong>Aplicación didáctica</strong></p>
+<ul>
+<li>Puedes cambiar las reglas y ver cómo cambian los resultados del
+modelo.</li>
+<li>Permite enseñar conceptos como correlación, causalidad, inferencia
+bayesiana, etc.</li>
+<li>Es una forma segura y realista de simular situaciones
+educativas.</li>
+</ul>
+</div>
+<div id="initial_id" class="cell code" data-execution_count="29"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.685081Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.672545Z&quot;}"
+data-collapsed="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> ColumnTransformer</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.naive_bayes <span class="im">import</span> GaussianNB</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler, OneHotEncoder, LabelEncoder</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.utils.hipify.hipify_python <span class="im">import</span> preprocessor</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Semilla para reproducibilidad</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">42</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">500</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el DataFrame</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;horas_estudio&#39;</span>: np.random.choice(np.arange(<span class="dv">0</span>, <span class="dv">21</span>), size<span class="op">=</span>n, replace<span class="op">=</span><span class="va">True</span>),</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;asistencia&#39;</span>: np.random.choice(np.arange(<span class="dv">50</span>, <span class="dv">101</span>), size<span class="op">=</span>n, replace<span class="op">=</span><span class="va">True</span>),</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;tipo_escuela&#39;</span>: np.random.choice([<span class="st">&#39;Pública&#39;</span>, <span class="st">&#39;Privada&#39;</span>], size<span class="op">=</span>n, p<span class="op">=</span>[<span class="fl">0.3</span>, <span class="fl">0.7</span>]),</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;extraescolares&#39;</span>: np.random.choice([<span class="st">&#39;Sí&#39;</span>, <span class="st">&#39;No&#39;</span>], size<span class="op">=</span>n, p<span class="op">=</span>[<span class="fl">0.5</span>, <span class="fl">0.5</span>])</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir la variable &#39;rendimiento&#39; de forma condicional</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calcular_rendimiento(row):</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> row[<span class="st">&#39;horas_estudio&#39;</span>] <span class="op">&gt;</span> <span class="dv">10</span> <span class="kw">and</span> row[<span class="st">&#39;asistencia&#39;</span>] <span class="op">&gt;</span> <span class="dv">80</span> <span class="kw">and</span> row[<span class="st">&#39;tipo_escuela&#39;</span>] <span class="op">==</span> <span class="st">&#39;Privada&#39;</span>:</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Alto&#39;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> row[<span class="st">&#39;horas_estudio&#39;</span>] <span class="op">&gt;</span> <span class="dv">5</span> <span class="kw">and</span> row[<span class="st">&#39;asistencia&#39;</span>] <span class="op">&gt;</span> <span class="dv">70</span>:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Medio&#39;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Bajo&#39;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;rendimiento&#39;</span>] <span class="op">=</span> data.<span class="bu">apply</span>(calcular_rendimiento, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir columnas categóricas a tipo &#39;category&#39;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;tipo_escuela&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;tipo_escuela&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;extraescolares&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;extraescolares&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;rendimiento&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;rendimiento&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar resumen del dataset</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.describe(include<span class="op">=</span><span class="st">&#39;all&#39;</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>        horas_estudio  asistencia tipo_escuela extraescolares rendimiento
+count       500.00000  500.000000          500            500         500
+unique            NaN         NaN            2              2           3
+top               NaN         NaN      Privada             No        Bajo
+freq              NaN         NaN          346            250         308
+mean          9.60000   74.380000          NaN            NaN         NaN
+std           6.32709   15.020214          NaN            NaN         NaN
+min           0.00000   50.000000          NaN            NaN         NaN
+25%           4.00000   61.000000          NaN            NaN         NaN
+50%           9.00000   74.500000          NaN            NaN         NaN
+75%          15.00000   87.000000          NaN            NaN         NaN
+max          20.00000  100.000000          NaN            NaN         NaN
+</code></pre>
+</div>
+</div>
+<div id="4e14781b45cda993" class="cell code" data-execution_count="30"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.710587Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.703960Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Redefinir la lógica para rendimiento</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calcular_rendimiento(row):</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> row[<span class="st">&#39;horas_estudio&#39;</span>] <span class="op">&gt;</span> <span class="dv">15</span> <span class="kw">and</span> row[<span class="st">&#39;asistencia&#39;</span>] <span class="op">&gt;</span> <span class="dv">90</span> <span class="kw">and</span> row[<span class="st">&#39;tipo_escuela&#39;</span>] <span class="op">==</span> <span class="st">&#39;Privada&#39;</span>:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Alto&#39;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> row[<span class="st">&#39;horas_estudio&#39;</span>] <span class="op">&gt;=</span> <span class="dv">10</span> <span class="kw">and</span> row[<span class="st">&#39;asistencia&#39;</span>] <span class="op">&gt;=</span> <span class="dv">75</span>:</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Medio&#39;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Bajo&#39;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Aplicar la lógica</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;rendimiento&#39;</span>] <span class="op">=</span> data.<span class="bu">apply</span>(calcular_rendimiento, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a categoría</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;rendimiento&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;rendimiento&#39;</span>].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Ver resumen (conteo por clase)</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data[<span class="st">&#39;rendimiento&#39;</span>].value_counts())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>rendimiento
+Bajo     376
+Medio    109
+Alto      15
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="b33a45f502f5abe3" class="cell markdown">
+<p><font size="4"></p>
+<p>Antes de meternos con el análisis de las columnas y de sus relaciones
+entre sí, procedemos a extraer cierta información del dataset. Tal y
+como podemos ver a continuación,se trata de un dataset de 500 registros
+con 5 columnas, de las cuales 2 son de tipo numérica y las otras tres
+restantes son de tipo categórica. Después, podemos apreciar que no hay
+valores nulos en el dataset, lo cual es bueno, ya que no tendríamos que
+eliminar o aplicar valores como la media, mediana... a dichos valores
+nulos.</p>
+</div>
+<div id="8c9e572f698dfa9b" class="cell code" data-execution_count="31"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.733239Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.731035Z&quot;}">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># tamaño del dataset</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>(500, 5)</code></pre>
+</div>
+</div>
+<div id="47dce140996d295e" class="cell code" data-execution_count="32"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.757036Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.753455Z&quot;}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>horas_estudio</th>
+      <th>asistencia</th>
+      <th>tipo_escuela</th>
+      <th>extraescolares</th>
+      <th>rendimiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>56</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>Bajo</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>19</td>
+      <td>77</td>
+      <td>Pública</td>
+      <td>No</td>
+      <td>Medio</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14</td>
+      <td>63</td>
+      <td>Pública</td>
+      <td>Sí</td>
+      <td>Bajo</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10</td>
+      <td>80</td>
+      <td>Pública</td>
+      <td>No</td>
+      <td>Medio</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7</td>
+      <td>68</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>Bajo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="9b0eea7a3ad82b90" class="cell code" data-execution_count="33"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.786435Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.782685Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># información resumida sobre las variables</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype   
+---  ------          --------------  -----   
+ 0   horas_estudio   500 non-null    int64   
+ 1   asistencia      500 non-null    int64   
+ 2   tipo_escuela    500 non-null    category
+ 3   extraescolares  500 non-null    category
+ 4   rendimiento     500 non-null    category
+dtypes: category(3), int64(2)
+memory usage: 9.8 KB
+</code></pre>
+</div>
+</div>
+<div id="a056bb0ac47f7914" class="cell code" data-execution_count="34"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.825967Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.821015Z&quot;}">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># resumen de las variables numéricas</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>data.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>horas_estudio</th>
+      <th>asistencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>500.00000</td>
+      <td>500.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>9.60000</td>
+      <td>74.380000</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>6.32709</td>
+      <td>15.020214</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.00000</td>
+      <td>50.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>4.00000</td>
+      <td>61.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>9.00000</td>
+      <td>74.500000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>15.00000</td>
+      <td>87.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>20.00000</td>
+      <td>100.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="ff160b388c285d81" class="cell code" data-execution_count="35"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.868909Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.865894Z&quot;}">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># comprobamos nulos</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>data.isnull().<span class="bu">sum</span>().sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>horas_estudio     0
+asistencia        0
+tipo_escuela      0
+extraescolares    0
+rendimiento       0
+dtype: int64</code></pre>
+</div>
+</div>
+<div id="6ae01095196be97c" class="cell markdown">
+<p><font size="4"></p>
+<h1 id="análisis-exploratorio-de-datos-eda">Análisis Exploratorio de
+Datos (EDA)</h1>
+<p>Dado este dataset, vamos a proceder a realizar el análisis
+exploratorio de los datos, en donde, vamos a poder comprender el
+significado de cada una de las variables y las relaciones que se
+establecen entre ellas.</p>
+<p>Primeramente, nos centraremos en las variables de manera individual
+y, después, analizaremos las relaciones entre las distintas variables
+predictoras y la relaciones de estas con la variable objetivo
+(rendimiento).</p>
+</div>
+<div id="1b4f858afa97e231" class="cell code" data-execution_count="36"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:35.910155Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.907911Z&quot;}">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># detectamos variables cualitativas y cuantitativas</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>var_cuantitativas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&quot;int&quot;</span>, <span class="st">&quot;float&quot;</span>]).columns.tolist()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>var_cualitativas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&quot;category&quot;</span>]).columns.tolist()</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Columnas numéricas: </span><span class="sc">{</span>var_cuantitativas<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Columnas categorias: </span><span class="sc">{</span>var_cualitativas<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Columnas numéricas: [&#39;horas_estudio&#39;, &#39;asistencia&#39;]
+Columnas categorias: [&#39;tipo_escuela&#39;, &#39;extraescolares&#39;, &#39;rendimiento&#39;]
+</code></pre>
+</div>
+</div>
+<div id="c959d83f371703fa" class="cell markdown">
+<p><font size="4"></p>
+<p>Una vez ya tenemos divididas las variables numéricas de las variables
+categóricas, vamos a proceder a realizar un análisis cualitativo y
+cuantitativo, para ello, comenzaremos por el análisis de las
+cuantitativas.</p>
+<h3 id="análisis-columnas-cuantitativas">Análisis columnas
+cuantitativas</h3>
+<p>Para este análisis, vamos a centrarnos en las columnas de tipo
+numérico. Primero, representaremos un gráfico para ver como se
+distribuyen estos datos y así, ver la distribución que siguen estos.
+Algunos modelos de machine learning no funcionan correctamente si los
+datos están muy separados o, al contrario, con una varianza muy
+baja.</p>
+<p>Tal y como podemos observar, la distribución de los datos de las
+columnas numéricas es homogénea, los datos no están sesgados. Esto se
+puede apreciar en la linea continua de cada gráfica, en donde, tiene
+unas ligeras subidas y bajadas. El sesgo se produce cuando al recoger
+una muestra, para una variable, hay más datos de una clase que de otra,
+por lo que esto podría afectar luego al rendimiento y a la predicción
+del modelo.</p>
+</div>
+<div id="a3009e5f0a54a30d" class="cell code" data-execution_count="37"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.165534Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:35.950068Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>lista_columnas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>]).columns</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>colores <span class="op">=</span> [<span class="st">&#39;red&#39;</span>, <span class="st">&#39;blue&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;purple&#39;</span>, <span class="st">&#39;cyan&#39;</span>, <span class="st">&#39;magenta&#39;</span>, <span class="st">&#39;brown&#39;</span>, <span class="st">&#39;olive&#39;</span>, <span class="st">&#39;pink&#39;</span>]</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, columna <span class="kw">in</span> <span class="bu">enumerate</span>(lista_columnas):</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">3</span>))</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    color <span class="op">=</span> colores[i <span class="op">%</span> <span class="bu">len</span>(colores)]  <span class="co"># Para evitar errores si hay más columnas que colore</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    sns.histplot(data[columna], kde<span class="op">=</span><span class="va">True</span>, bins<span class="op">=</span><span class="dv">30</span>, color<span class="op">=</span> color)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Distribución de </span><span class="sc">{</span>columna<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(columna)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Frecuencia&#39;</span>)</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/90dbec4d51a27fe45f9fd6dd70f5245c193e4e67.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/673314ad8c892fe165c3677a5a78e67917a40aef.png" /></p>
+</div>
+</div>
+<div id="14a8248b8f4a6df6" class="cell markdown">
+<p><font size="4"></p>
+<h3 id="análisis-variable-objetivo">Análisis variable objetivo</h3>
+<p>Procedemos a analizar la variable objetivo, en donde, en este caso,
+se trata de una clasificación en tres clases:</p>
+<ul>
+<li>Bajo</li>
+<li>Medio</li>
+<li>Alto</li>
+</ul>
+<p>Para ello, vamos a mostrar una gráfica para ver como se distribuyen
+las clases. Como se puede observar, la variable objetivo, formada por 3
+clases, está muy desbalanceada, lo cual puede traer problemas a la hora
+de que en las predicciones clasifique bien la clase minoritaria.</p>
+</div>
+<div id="f000b30544d9d068" class="cell code" data-execution_count="38"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.285860Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.203300Z&quot;}">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contamos los valores únicos de la columna &#39;diagnosis&#39;</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>conteo <span class="op">=</span> data[<span class="st">&quot;rendimiento&quot;</span>].value_counts()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos el gráfico de barras</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>conteo.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Añadimos títulos y etiquetas</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribución del rendimiento&quot;</span>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Tipo de rendimiento&quot;</span>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Cantidad de muestras&quot;</span>)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostramos el gráfico</span></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostramos cantidades</span></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>data[<span class="st">&quot;rendimiento&quot;</span>]<span class="sc">.</span>value_counts()<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/a5dd1b2a96f541db853810e8b5cb51fbda97beed.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>rendimiento
+Bajo     376
+Medio    109
+Alto      15
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="c2f012567ba9987e" class="cell markdown">
+<p><font size="4"></p>
+<h3 id="análisis-variables-cualitativas">Análisis variables
+cualitativas</h3>
+<p>Ahora, vamos a proceder a analizar las variables cualitativas, en
+donde, seguiremos el mismo procedimiento, veremos como de distribuidos
+están los datos para cada una de las columnas.</p>
+<p>Seguido a este código, se muestran las gráficas de distribución de
+las columnas categóricas. De ellas, sacamos las siguientes
+conclusiones:</p>
+<ul>
+<li>Tipo_escuela (privada/pública): la distribución de los estudiantes
+está desequilibrada, hay sesgo, ya que alrededor de 1/3 de los
+estudiantes va a la escuela pública, mientras que, 2/3 va a la
+privada.</li>
+<li>Extraescolares (si/no): esta clase está equilibrada al 50/50.</li>
+<li>Rendimiento (Bajo/Medio/Alto): es la columna objetivo, ya se ha
+explicado anteriormente.</li>
+</ul>
+</div>
+<div id="eae461a238a624fb" class="cell code" data-execution_count="39"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.553904Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.332963Z&quot;}">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>var_cualitativas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;category&#39;</span>])  </span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear subplots</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">1</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">4</span>))</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Dibujar las gráficas</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(var_cualitativas):</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    data[colum].value_counts().plot.barh(ax<span class="op">=</span>axes[i], color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    axes[i].set_title(colum, fontsize<span class="op">=</span><span class="dv">9</span>, fontweight<span class="op">=</span><span class="st">&quot;bold&quot;</span>)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    axes[i].tick_params(labelsize<span class="op">=</span><span class="dv">7</span>)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    axes[i].set_xlabel(<span class="st">&quot;&quot;</span>)</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustar diseño</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.85</span>)</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Distribución de variables cualitativas&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>, fontweight<span class="op">=</span><span class="st">&quot;bold&quot;</span>)</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar densidad de valores</span></span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> columna <span class="kw">in</span> var_cualitativas:</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>columna<span class="sc">}</span><span class="ss">:</span><span class="ch">\n</span><span class="sc">{</span>data[columna]<span class="sc">.</span>value_counts()<span class="sc">.</span>sort_index()<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;*&quot;</span> <span class="op">*</span> <span class="dv">30</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>tipo_escuela:
+tipo_escuela
+Privada    346
+Pública    154
+Name: count, dtype: int64
+******************************
+extraescolares:
+extraescolares
+No    250
+Sí    250
+Name: count, dtype: int64
+******************************
+rendimiento:
+rendimiento
+Alto      15
+Bajo     376
+Medio    109
+Name: count, dtype: int64
+******************************
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/deb42a72ea768b806cfcbfc7b1f62fa7d1271ef0.png" /></p>
+</div>
+</div>
+<div id="ea7beba5e44aadf9" class="cell markdown">
+<p><font size="4"></p>
+<h3 id="análisis-entre-variables">Análisis entre variables</h3>
+<p>Una vez hemos analizado las variables por separado, vamos a proceder
+a analizar las variables entre sí (correlación) y con respecto a la
+variable objetivo. Antes de nada, vamos a proceder a cambiar la columna
+objetivo, que es de tipo categórica ordinal, en numérica. Para ello,
+haremos las siguientes transformaciones:</p>
+<ul>
+<li>Rendimiento Bajo: 1</li>
+<li>Rendimiento Medio: 2</li>
+<li>Rendimiento Alto: 3</li>
+</ul>
+<p>Acto seguido, calcularemos la correlación para las variables
+numéricas junto con la columna objetivo. Finalmente, veremos como se
+distribuyen los datos de las columnas categóricas con respecto a la
+columna objetivo (Diagramas de caja)</p>
+</div>
+<div id="7dfc081cd4f8a3a2" class="cell code" data-execution_count="40"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.578507Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.572394Z&quot;}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>transformacion_rendimiento <span class="op">=</span> {</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Bajo&quot;</span> : <span class="dv">1</span>,</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Medio&quot;</span> : <span class="dv">2</span>,</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Alto&quot;</span> : <span class="dv">3</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&quot;rendimiento&quot;</span>] <span class="op">=</span> data[<span class="st">&quot;rendimiento&quot;</span>].<span class="bu">map</span>(transformacion_rendimiento)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>data.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>horas_estudio</th>
+      <th>asistencia</th>
+      <th>tipo_escuela</th>
+      <th>extraescolares</th>
+      <th>rendimiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>56</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>19</td>
+      <td>77</td>
+      <td>Pública</td>
+      <td>No</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14</td>
+      <td>63</td>
+      <td>Pública</td>
+      <td>Sí</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10</td>
+      <td>80</td>
+      <td>Pública</td>
+      <td>No</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7</td>
+      <td>68</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>20</td>
+      <td>96</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>6</td>
+      <td>65</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>18</td>
+      <td>54</td>
+      <td>Privada</td>
+      <td>No</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10</td>
+      <td>84</td>
+      <td>Privada</td>
+      <td>Sí</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>61</td>
+      <td>Privada</td>
+      <td>No</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="9e8c4ead816b3bf1" class="cell code" data-execution_count="41"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.614021Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.611241Z&quot;}">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&quot;rendimiento&quot;</span>] <span class="op">=</span> data[<span class="st">&quot;rendimiento&quot;</span>].astype(<span class="st">&#39;int64&#39;</span>)</span></code></pre></div>
+</div>
+<div id="b805043cf6fa2d0a" class="cell code" data-execution_count="42"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.643399Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.638670Z&quot;}">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype   
+---  ------          --------------  -----   
+ 0   horas_estudio   500 non-null    int64   
+ 1   asistencia      500 non-null    int64   
+ 2   tipo_escuela    500 non-null    category
+ 3   extraescolares  500 non-null    category
+ 4   rendimiento     500 non-null    int64   
+dtypes: category(2), int64(3)
+memory usage: 13.1 KB
+</code></pre>
+</div>
+</div>
+<div id="e14a5bdb5c6ecd9" class="cell code" data-execution_count="43"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.737611Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.670407Z&quot;}">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos la matriz de correlación</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>dataset_num <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>])</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> dataset_num.corr()</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(corr_matrix)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de correlación&#39;</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>               horas_estudio  asistencia  rendimiento
+horas_estudio       1.000000    0.022880     0.524013
+asistencia          0.022880    1.000000     0.505679
+rendimiento         0.524013    0.505679     1.000000
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/1246a4cc95977c8fd7d2a97ab723fbc7b4e3d85d.png" /></p>
+</div>
+</div>
+<div id="ba99b2aae273d49f" class="cell markdown">
+<p><font size="4"></p>
+<p>La matriz de correlación muestra cómo se relacionan las variables
+<code>horas_estudio</code>, <code>asistencia</code> y
+<code>rendimiento</code>. Se observa una correlación positiva moderada
+entre <code>horas_estudio</code> y <code>rendimiento</code> (0.524), lo
+que indica que, en general, a mayor cantidad de horas de estudio, mejor
+es el rendimiento académico. De forma similar, la variable
+<code>asistencia</code> también presenta una correlación positiva
+moderada con el rendimiento (0.506), lo que sugiere que los estudiantes
+que asisten más a clase tienden a obtener mejores resultados. Sin
+embargo, la correlación entre <code>horas_estudio</code> y
+<code>asistencia</code> es prácticamente nula (0.023), lo que implica
+que estos dos comportamientos son independientes: asistir a clase no
+está relacionado con estudiar más o menos horas, y viceversa. En
+conjunto, se puede concluir que tanto las horas de estudio como la
+asistencia a clase son factores relevantes para el rendimiento
+académico, y que aportan información complementaria al no estar
+correlacionados entre sí.</p>
+</div>
+<div id="ebc68b967afb501b" class="cell code" data-execution_count="44"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.816096Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.750978Z&quot;}">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">&#39;tipo_escuela&#39;</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    hue<span class="op">=</span><span class="st">&#39;rendimiento&#39;</span>,</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    palette<span class="op">=</span><span class="st">&#39;Set2&#39;</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Frecuencia de niveles de rendimiento por tipo de escuela&quot;</span>, fontsize<span class="op">=</span><span class="dv">12</span>, fontweight<span class="op">=</span><span class="st">&quot;bold&quot;</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Tipo de escuela&quot;</span>)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Número de estudiantes&quot;</span>)</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Rendimiento&quot;</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/797c88657165c9ae4a52d7dc72ee0d4d5200df61.png" /></p>
+</div>
+</div>
+<div id="30a818b36f7e813" class="cell markdown">
+<p><font size="4"></p>
+<p>Con base en el gráfico de barras que muestra la <strong>frecuencia de
+niveles de rendimiento por tipo de escuela</strong>, se puede concluir
+lo siguiente:</p>
+<p>Los estudiantes de escuelas <strong>privadas</strong> presentan en su
+mayoría un <strong>rendimiento nivel 1</strong>, seguido por un grupo
+menor en el nivel 2 y una pequeña proporción en el nivel 3. Esto indica
+que en escuelas privadas predominan los estudiantes con mejor
+rendimiento.</p>
+<p>En las escuelas <strong>públicas</strong>, también se observa que la
+mayor parte del alumnado se concentra en el <strong>rendimiento nivel
+1</strong>, pero con una proporción menor comparada con la privada.
+Además, hay menos estudiantes en los niveles 2 y prácticamente ninguno
+en el nivel 3.</p>
+<p>En resumen, <strong>los estudiantes de escuelas privadas tienden a
+tener un rendimiento más alto que los de escuelas públicas</strong>, ya
+que no solo son más numerosos en el nivel 1, sino que también hay
+presencia en todos los niveles (1, 2 y 3), mientras que en las escuelas
+públicas hay una menor representación global y prácticamente nula en el
+nivel más bajo de rendimiento.</p>
+<h3 id="preprocesamiento-y-división-del-dataset">Preprocesamiento y
+División del dataset</h3>
+<p>Una vez hemos hecho el EDA, vamos a realizar el procesamiento de las
+columnas del dataset con la finalidad de ajustar los datos a como el
+modelo los recibe. Para ello, vamos a dividir el procesamiento en dos
+partes:</p>
+<ul>
+<li>Variables numéricas: aplicaremos un StandarScaler para convertir los
+datos a un formato normalizado, para que el modelo no tenga en cuenta
+valores muy altos de algunas variables y, de esta manera, todas las
+columnas sean iguales.</li>
+<li>Variables categóricas: Aplicaremos un OneHotEncoding.</li>
+</ul>
+<p>Además, realizaremos la división del dataset en conjunto de
+entrenamiento y conjunto de test.</p>
+</div>
+<div id="438fb423583bea3c" class="cell code" data-execution_count="45"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.865827Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.857741Z&quot;}">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># division del dataset</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> data[[<span class="st">&quot;horas_estudio&quot;</span>, <span class="st">&quot;asistencia&quot;</span> ,<span class="st">&quot;tipo_escuela&quot;</span>, <span class="st">&quot;extraescolares&quot;</span>]]</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[<span class="st">&quot;rendimiento&quot;</span>]</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(x, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>, shuffle<span class="op">=</span><span class="va">True</span>, stratify<span class="op">=</span>y)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>x_train.shape, y_train.shape, x_test.shape, y_test.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<pre><code>((400, 4), (400,), (100, 4), (100,))</code></pre>
+</div>
+</div>
+<div id="414692ee00336473" class="cell code" data-execution_count="46"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.946256Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.941771Z&quot;}">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> OrdinalEncoder</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el preprocesador</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>var_cualitativas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;category&#39;</span>]).columns.tolist()</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>var_cuantitativas <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>]).drop(columns<span class="op">=</span>[<span class="st">&#39;rendimiento&#39;</span>]).columns.tolist()</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>preprocesador <span class="op">=</span> ColumnTransformer([</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;scaler&#39;</span>, StandardScaler(), var_cuantitativas),</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;ordinal_encoder&#39;</span>, OrdinalEncoder(), var_cualitativas)]    </span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Columnas cualitativas: </span><span class="sc">{</span>var_cualitativas<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Columnas cuantitativas: </span><span class="sc">{</span>var_cuantitativas<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Columnas cualitativas: [&#39;tipo_escuela&#39;, &#39;extraescolares&#39;]
+Columnas cuantitativas: [&#39;horas_estudio&#39;, &#39;asistencia&#39;]
+</code></pre>
+</div>
+</div>
+<div id="a59e20eb4549df93" class="cell code" data-execution_count="47"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:36.981106Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.975254Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> set_config</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>set_config(display<span class="op">=</span><span class="st">&#39;diagram&#39;</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>preprocesador</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<style>#sk-container-id-2 {color: black;background-color: white;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>ColumnTransformer(transformers=[(&#x27;scaler&#x27;, StandardScaler(),
+                                 [&#x27;horas_estudio&#x27;, &#x27;asistencia&#x27;]),
+                                (&#x27;ordinal_encoder&#x27;, OrdinalEncoder(),
+                                 [&#x27;tipo_escuela&#x27;, &#x27;extraescolares&#x27;])])</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-6" type="checkbox" ><label for="sk-estimator-id-6" class="sk-toggleable__label sk-toggleable__label-arrow">ColumnTransformer</label><div class="sk-toggleable__content"><pre>ColumnTransformer(transformers=[(&#x27;scaler&#x27;, StandardScaler(),
+                                 [&#x27;horas_estudio&#x27;, &#x27;asistencia&#x27;]),
+                                (&#x27;ordinal_encoder&#x27;, OrdinalEncoder(),
+                                 [&#x27;tipo_escuela&#x27;, &#x27;extraescolares&#x27;])])</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-7" type="checkbox" ><label for="sk-estimator-id-7" class="sk-toggleable__label sk-toggleable__label-arrow">scaler</label><div class="sk-toggleable__content"><pre>[&#x27;horas_estudio&#x27;, &#x27;asistencia&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-8" type="checkbox" ><label for="sk-estimator-id-8" class="sk-toggleable__label sk-toggleable__label-arrow">StandardScaler</label><div class="sk-toggleable__content"><pre>StandardScaler()</pre></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-9" type="checkbox" ><label for="sk-estimator-id-9" class="sk-toggleable__label sk-toggleable__label-arrow">ordinal_encoder</label><div class="sk-toggleable__content"><pre>[&#x27;tipo_escuela&#x27;, &#x27;extraescolares&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-10" type="checkbox" ><label for="sk-estimator-id-10" class="sk-toggleable__label sk-toggleable__label-arrow">OrdinalEncoder</label><div class="sk-toggleable__content"><pre>OrdinalEncoder()</pre></div></div></div></div></div></div></div></div></div></div>
+</div>
+</div>
+<div id="d7da1e36f3a83a36" class="cell markdown">
+<p><font size="4"></p>
+<h3
+id="definimos-el-modelo-lo-entrenamos-y-calculamos-sus-métricas">Definimos
+el modelo, lo entrenamos y calculamos sus métricas</h3>
+<p>Naive Bayes es un algoritmo de clasificación basado en el teorema de
+Bayes, que asume que las características del conjunto de datos son
+independientes entre sí (de ahí lo de "naive" o ingenuo). Esto significa
+que la presencia o ausencia de una característica no afecta a las otras,
+lo cual simplifica mucho los cálculos. Utiliza probabilidades
+condicionales para predecir la clase a la que pertenece un nuevo dato,
+calculando la probabilidad de que ese dato pertenezca a cada clase
+posible y eligiendo la que tenga mayor probabilidad. Es muy eficiente,
+fácil de implementar y funciona bien en problemas de texto, como
+clasificación de correos o análisis de sentimientos, aunque su supuesto
+de independencia rara vez se cumple totalmente en la práctica.</p>
+</div>
+<div id="ad3dbd980e935c99" class="cell code" data-execution_count="48"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:37.006783Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:36.997611Z&quot;}">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el modelo</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>modelo <span class="op">=</span> GaussianNB()</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># definimos el pipeline</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>pipeline <span class="op">=</span> Pipeline(steps<span class="op">=</span>[</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;preprocessor&#39;</span>, preprocesador),</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    (<span class="st">&#39;model&#39;</span>, modelo)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># entrenamos el modelo</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>pipeline.fit(x_train, y_train)</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="co"># calculamos las predicciones</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> pipeline.predict(x_test)</span></code></pre></div>
+</div>
+<div id="7acdfe0269aad97a" class="cell code" data-execution_count="49"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:37.029081Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:37.021704Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, precision_score, recall_score, f1_score</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>precision <span class="op">=</span> precision_score(y_test, y_pred, average<span class="op">=</span><span class="st">&#39;weighted&#39;</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>recall <span class="op">=</span> recall_score(y_test, y_pred, average<span class="op">=</span><span class="st">&#39;weighted&#39;</span>)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>f1 <span class="op">=</span> f1_score(y_test, y_pred, average<span class="op">=</span><span class="st">&#39;weighted&#39;</span>)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy:  </span><span class="sc">{</span>accuracy<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Precision: </span><span class="sc">{</span>precision<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Recall:    </span><span class="sc">{</span>recall<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;F1-score:  </span><span class="sc">{</span>f1<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy:  0.910
+Precision: 0.951
+Recall:    0.910
+F1-score:  0.914
+</code></pre>
+</div>
+</div>
+<div id="2835354f996f9a39" class="cell code" data-execution_count="50"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:37.097370Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:37.041565Z&quot;}">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix, ConfusionMatrixDisplay</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> confusion_matrix(y_test, y_pred)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>disp <span class="op">=</span> ConfusionMatrixDisplay(confusion_matrix<span class="op">=</span>cm)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>disp.plot(cmap<span class="op">=</span>plt.cm.Blues) </span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Matriz de Confusión&quot;</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/fc9d694305cf618cbecbc08e33f87fdebc602581.png" /></p>
+</div>
+</div>
+<div id="6724df9de762fe42" class="cell code" data-execution_count="51"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2025-06-27T11:45:37.174089Z&quot;,&quot;start_time&quot;:&quot;2025-06-27T11:45:37.112035Z&quot;}">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> label_binarize</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> roc_curve, auc</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Paso 1: Binarizamos las etiquetas para multiclase</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>clases <span class="op">=</span> np.unique(y_test)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>y_test_bin <span class="op">=</span> label_binarize(y_test, classes<span class="op">=</span>clases)</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Paso 2: Obtener probabilidades para todas las clases</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>y_score <span class="op">=</span> pipeline.predict_proba(x_test)</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Paso 3: Calcular ROC para cada clase</span></span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>fpr <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>tpr <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>roc_auc <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(clases)):</span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>    fpr[i], tpr[i], _ <span class="op">=</span> roc_curve(y_test_bin[:, i], y_score[:, i])</span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>    roc_auc[i] <span class="op">=</span> auc(fpr[i], tpr[i])</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Paso 4: Dibujar las curvas ROC</span></span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;red&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;purple&#39;</span>]  <span class="co"># Pon tantos colores como clases tengas</span></span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, color <span class="kw">in</span> <span class="bu">zip</span>(<span class="bu">range</span>(<span class="bu">len</span>(clases)), colors):</span>
+<span id="cb36-27"><a href="#cb36-27" aria-hidden="true" tabindex="-1"></a>    plt.plot(fpr[i], tpr[i], color<span class="op">=</span>color, lw<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb36-28"><a href="#cb36-28" aria-hidden="true" tabindex="-1"></a>             label<span class="op">=</span><span class="ss">f&#39;Clase </span><span class="sc">{</span>clases[i]<span class="sc">}</span><span class="ss"> (AUC = </span><span class="sc">{</span>roc_auc[i]<span class="sc">:.2f}</span><span class="ss">)&#39;</span>)</span>
+<span id="cb36-29"><a href="#cb36-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-30"><a href="#cb36-30" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">1</span>], [<span class="dv">0</span>, <span class="dv">1</span>], <span class="st">&#39;k--&#39;</span>, lw<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb36-31"><a href="#cb36-31" aria-hidden="true" tabindex="-1"></a>plt.xlim([<span class="fl">0.0</span>, <span class="fl">1.0</span>])</span>
+<span id="cb36-32"><a href="#cb36-32" aria-hidden="true" tabindex="-1"></a>plt.ylim([<span class="fl">0.0</span>, <span class="fl">1.05</span>])</span>
+<span id="cb36-33"><a href="#cb36-33" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;False Positive Rate&#39;</span>)</span>
+<span id="cb36-34"><a href="#cb36-34" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;True Positive Rate&#39;</span>)</span>
+<span id="cb36-35"><a href="#cb36-35" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Curvas ROC multiclase (One-vs-Rest)&#39;</span>)</span>
+<span id="cb36-36"><a href="#cb36-36" aria-hidden="true" tabindex="-1"></a>plt.legend(loc<span class="op">=</span><span class="st">&quot;lower right&quot;</span>)</span>
+<span id="cb36-37"><a href="#cb36-37" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c9ab8b86cca64c5ab3016d7f1a0ddc1f/5d6a56b38f59ae4f19d6c62015d942678bf272bb.png" /></p>
+</div>
+</div>
+</body>
+</html>
